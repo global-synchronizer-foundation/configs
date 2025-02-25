@@ -28,8 +28,43 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Default is 1. We set it as 0 to get access to the target branch
 
       - name: Validate JSON and YAML files
         uses: GrantBirki/json-yaml-validate@d7814b94473939c1daaca2c96131b891d4703a3c  # v2.7.1
         with:
           base_dir: configs
+
+      - name: Make sure total sum of reward weights doesn't change unless explicitly allowed
+        run: |
+          # This script checks if the total sum of reward weights for all approved SV identities has changed
+
+          mark='[allow-total-reward-weight-change]'
+          commit_message=$(git show -s --format="%B" "$SOURCE_BRANCH")
+          allow_total_reward_weight_change=$(echo "$commit_message" | grep -qF "$mark" && echo "true" || echo "false")
+          exit_code=0
+
+          for f in configs/*/approved-sv-id-values.yaml; do
+            content_orig=$(git show "$TARGET_BRANCH:$f")
+            content_new=$(cat "$f")
+
+            total_weight_orig=$(echo "$content_orig" | yq '.approvedSvIdentities[].rewardWeightBps as $n ireduce(0; . + $n)')
+            total_weight_new=$(echo "$content_new" | yq '.approvedSvIdentities[].rewardWeightBps as $n ireduce(0; . + $n)')
+
+            total_weight_diff=$((total_weight_new - total_weight_orig))
+
+            if [[ "$total_weight_diff" == "0" ]]; then
+              echo "INFO: Total reward weight diff for $f is: $total_weight_diff."
+            elif  [[ "$allow_total_reward_weight_change" == "true" ]]; then
+              echo "INFO: Total reward weight diff for $f is: $total_weight_diff. The change is allowed."
+            else
+              echo "ERROR: Total reward weight diff for $f is: $total_weight_diff. The change is not allowed. Add $mark to the commit message to override." >&2
+              exit_code=1
+            fi
+          done
+
+          exit "$exit_code"
+        env:
+          SOURCE_BRANCH: ${{ github.event.pull_request.head.sha }}
+          TARGET_BRANCH: "origin/${{ github.base_ref }}"
