@@ -54,14 +54,19 @@ jobs:
 
             total_weight_diff=$((total_weight_new - total_weight_orig))
 
+            echo "INFO: Current total reward weight for $f is: $total_weight_orig."
+
             if [[ "$total_weight_diff" == "0" ]]; then
               echo "INFO: Total reward weight diff for $f is: $total_weight_diff."
             elif  [[ "$allow_total_reward_weight_change" == "true" ]]; then
               echo "INFO: Total reward weight diff for $f is: $total_weight_diff. The change is allowed."
+              echo "INFO: New total reward weight for $f is: $total_weight_new."
             else
               echo "ERROR: Total reward weight diff for $f is: $total_weight_diff. The change is not allowed. Add $mark to the commit message to override." >&2
               exit_code=1
             fi
+
+            echo
           done
 
           exit "$exit_code"
