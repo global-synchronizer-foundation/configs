@@ -31,6 +31,7 @@ jobs:
         uses: GrantBirki/json-yaml-validate@e42e6ece9b97f2b220274c909a9a98e380c2c9fd  # v3.2.1
         with:
           base_dir: configs
+          use_gitignore: false
 
       - name: Make sure total sum of reward weights doesn't change unless explicitly allowed
         run: |
