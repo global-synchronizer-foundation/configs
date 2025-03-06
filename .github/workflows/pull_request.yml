@@ -28,7 +28,7 @@ jobs:
           fetch-depth: 0  # Default is 1. We set it as 0 to get access to the target branch
 
       - name: Validate JSON and YAML files
-        uses: GrantBirki/json-yaml-validate@d7814b94473939c1daaca2c96131b891d4703a3c  # v2.7.1
+        uses: GrantBirki/json-yaml-validate@e42e6ece9b97f2b220274c909a9a98e380c2c9fd  # v3.2.1
         with:
           base_dir: configs
 
