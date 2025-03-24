@@ -18,8 +18,8 @@ check() {
   local new_commit=$2
 
   mark='[allow-total-reward-weight-change]'
-  commit_message=$(git show -s --format="%B" "$new_commit")
-  allow_total_reward_weight_change=$(echo "$commit_message" | grep -qF "$mark" && echo "true" || echo "false")
+  commits_with_mark=$(git log -F --grep "$mark" --format="%h %s" "$base_commit..$new_commit" --)
+  allow_total_reward_weight_change=$([[ -n $commits_with_mark ]] && echo "true" || echo "false")
   exit_code=0
 
   for f in configs/*/approved-sv-id-values.yaml; do
