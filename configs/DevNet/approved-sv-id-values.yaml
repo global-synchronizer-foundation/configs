@@ -46,8 +46,8 @@ approvedSvIdentities:
     #     weight: "30000"
     #   - beneficiary: "copper-devnetValidator-3::1220848005cbf8e3b7fd5a1736a49e8661222e7b2eb4bbde0614b06f51b972c525f5" # Copper Clearloop
     #     weight: "10000"
-    # - beneficiary: "Elliptic-validator-1::" # Elliptic CIP-0044
-    #   weight: "5000"
+    #   - beneficiary: "Elliptic-validator-1::" # Elliptic CIP-0044
+    #     weight: "5000"
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgWriOYpZeYXC09cPOKm/s1MzZSrJvKZc3Mz4RqYLsA7j/umQfLFKqWWu1TT77JrrGTTp57aXUTcrGg0DvyRq/Q==
     rewardWeightBps: 110000
