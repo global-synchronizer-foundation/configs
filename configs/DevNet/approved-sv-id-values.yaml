@@ -28,7 +28,7 @@ approvedSvIdentities:
     rewardWeightBps: 150000
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+2XaCekgPDPoEzXeo3yYf6Y+3zbIXKMoR2WYl/pa8CMuOloMXHUfdi6viBJcvoLij7ti5PaqLp1PHJ5tWLteVQ==
-    rewardWeightBps: 285000
+    rewardWeightBps: 295000
     extraBeneficiaries:
       - beneficiary: "GSF-validator-1::1220dc05147ec4b91b61ebc970af0e10f1daebd4bf6d8274c2e1a3bf9f7cb7988a81" # GSF-1
         weight: "100000"
@@ -48,6 +48,8 @@ approvedSvIdentities:
         weight: "10000"
       - beneficiary: "Elliptic-validator-1::" # Elliptic CIP-0044
         weight: "5000"
+      - beneficiary: "ObsidianSystems-validator-1::1220624505b61dca190227947a52cab4953cc99da4818584a0dffa480164bc23c309" # Obsidian Systems
+        weight: "10000"
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgWriOYpZeYXC09cPOKm/s1MzZSrJvKZc3Mz4RqYLsA7j/umQfLFKqWWu1TT77JrrGTTp57aXUTcrGg0DvyRq/Q==
     rewardWeightBps: 110000
