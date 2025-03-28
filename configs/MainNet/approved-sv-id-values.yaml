@@ -39,9 +39,19 @@ approvedSvIdentities:
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPuCFe1z5+ZzVb9y78ewt9yYm7KjGlCk36nF5ZrkkoO+lZvAXmr0IEWEgtBHxienC2IIDGT49aQM6M8ukvbxYLA==
     rewardWeightBps: 110000
+    extraBeneficiaries:
+      - beneficiary: "auth0_007c66f47b4f7dbebab8f2af6967::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # MPCH
+        weight: "10000"
+      - beneficiary: "auth0_007c6747419ddfb5909b9802bba9::1220c75867697df9fc5fed191b34ee931be05aa4b6fcc465927d81c841baa75f2ab5" # LCV
+        weight: "100000"
   - name: Orb-1-LP-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYSpqOpqB6lWVLfu7ojM/GTSALZK2X1MAKhJoZIJP+G7WkDo0Hap4VZtaSyrKiTqlcKu4ycgJ5UEG1WAkoKYjOA==
     rewardWeightBps: 100000
+    extraBeneficiaries:
+      - beneficiary: "auth0_007c67acae90ab8ef9d344b817b4::12205d4d358e9de3351c74419d9746ea9083854c113f826240fe2b2ce808a51a3a7e" # Nima Capital
+        weight: "50000"
+      - beneficiary: "auth0_007c6723cbcc5cee3153df57da4d::122039b0120dda65f350bbd22731b636ffe2eb757a4f04bf41a18d689c6e9351633a" # Nima Capital (Lenar)
+        weight: "50000"
   - name: Tradeweb-Markets-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYMTwBnr8tq7dL7/o5WyzZ1hzm6CvFCWtXHnyTC5zkmXKYcr37d7CQ8+tBBy0JAHvsGvmE33B+tAucEVfJnkBzw==
     rewardWeightBps: 100000
