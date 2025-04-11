@@ -33,6 +33,9 @@ jobs:
           base_dir: configs
           use_gitignore: false
 
+      - name: Check SV IDs for duplicates
+        run: scripts/check-sv-id-dups.sh
+
       - name: Make sure total sum of reward weights doesn't change unless explicitly allowed
         run: scripts/check-sum-reward-weights-change.sh "$TARGET_BRANCH" "$SOURCE_BRANCH"
         env:
