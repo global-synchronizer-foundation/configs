@@ -7,6 +7,13 @@ set -euo pipefail
 
 SCRIPTS_DIR=$(dirname "$0")
 
+sv_ids_exclude=(${SV_IDS_EXCLUDE:-})
+
+sv_ids_exclude_json=$(
+  printf '%s\n' "${sv_ids_exclude[@]}" |
+  jq -nR '[inputs]'
+)
+
 approved_sv_ids_files=(
   "$SCRIPTS_DIR"/../configs/*/approved-sv-id-values.yaml
 )
@@ -23,9 +30,10 @@ jq_functions='
 
 sv_id_dups=$(
   echo "$approved_sv_ids" |
-  jq -nr "$jq_functions"'
+  jq -nr --argjson sv_ids_exclude "$sv_ids_exclude_json" "$jq_functions"'
     [inputs]
     | map(.approvedSvIdentities[].publicKey)
+    | . - $sv_ids_exclude
     | select_dups[] | "- " + .
   '
 )
