@@ -16,7 +16,7 @@ approvedSvIdentities:
     rewardWeightBps: 130000
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETri1wBeoV3AYnEF/slvViz9GO2g2lcxUQ3SadBTA70Kn87KzAZ/25n6+hhuRebuuGlm70KFKGJGr8RFd1YjB1Q==
-    rewardWeightBps: 305000
+    rewardWeightBps: 405000
     extraBeneficiaries:
       - beneficiary: "GSF-validator-1::1220cff733e3a29f50b3104f573d51461e85cd685b28dafa684c40813975e6e2ce3d"
         weight: "100000"
@@ -40,6 +40,8 @@ approvedSvIdentities:
         weight: "10000"
       - beneficiary: "CoinMetrics-validator-1::12204eb3808b8a646470cbaedbe95811993b4d96df2bd9cd32585802d0365f9c15ed" # Coin Metrics CIP-0046
         weight: "10000"
+      - beneficiary: "circle-validator-1::1220dd2293b563c59be746073ad5f5c47b87d2537accc44b407ea07da4548ea15b6e" # Circle CIP-0041
+        weight: "100000"
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOxCYWSBB4hDz7O1XxJ3xswKXxJcQqsgyzBTbWjkwa+ILYXy8T2vtVMoZ+tC/Ykdp3MyFwcMIP1kzcDKCSp0qow==
     rewardWeightBps: 110000
