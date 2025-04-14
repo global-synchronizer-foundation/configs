@@ -44,7 +44,7 @@ approvedSvIdentities:
         weight: "10000"
       - beneficiary: "fivenorth-devnet-1::122036c4a4b2f3030c1e01ecbfeaf143263c9dbc49fa03992cf69cd180176b567baa" # Five North
         weight: "30000"
-      - beneficiary: "copper-devnetValidator-3::1220848005cbf8e3b7fd5a1736a49e8661222e7b2eb4bbde0614b06f51b972c525f5" # Copper Clearloop
+      - beneficiary: "copper-devnetValidator-3::1220848005cbf8e3b7fd5a1736a49e8661222e7b2eb4bbde0614b06f51b972c525f5" # Copper Clearloop CIP-0039
         weight: "10000"
       - beneficiary: "Elliptic-validator-1::1220947a4507021b651a021e880e5d29fd97df225d7ff5dbee2dae2d06aed8565d0a" # Elliptic CIP-0044
         weight: "5000"
