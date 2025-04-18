@@ -10,9 +10,9 @@ CURL_TIMEOUT=5
 CURL_CMD=(curl -fsS -m "$CURL_TIMEOUT")
 
 ENVS_AND_SCAN_URLS=(
-  DevNet  https://scan.sv-1.dev.global.canton.network.sync.global
-  TestNet https://scan.sv-1.test.global.canton.network.sync.global
-  MainNet https://scan.sv-1.global.canton.network.sync.global
+  DevNet  https://docs.dev.global.canton.network.sync.global/dso
+  TestNet https://docs.test.global.canton.network.sync.global/dso
+  MainNet https://docs.global.canton.network.sync.global/dso
 )
 
 SCRIPTS_DIR=$(dirname "$0")
