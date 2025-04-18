@@ -9,7 +9,7 @@ set -euo pipefail
 CURL_TIMEOUT=5
 CURL_CMD=(curl -fsS -m "$CURL_TIMEOUT")
 
-ENVS_AND_SCAN_URLS=(
+ENVS_AND_DSO_URLS=(
   DevNet  https://docs.dev.global.canton.network.sync.global/dso
   TestNet https://docs.test.global.canton.network.sync.global/dso
   MainNet https://docs.global.canton.network.sync.global/dso
@@ -28,62 +28,70 @@ usage() {
 
 config_diff() {
   local config_file=$1
-  local scan_url=$2
+  local dso_url=$2
 
   local configs_dir="$SCRIPTS_DIR/../configs"
-  local dso_url="$scan_url/api/scan/v0/dso"
 
   echo "$config_file -> $dso_url"
 
   diff_errors=()
 
-  local dso_data; dso_data=$(
-    "${CURL_CMD[@]}" "$dso_url"
-  ) || diff_errors+=("ERROR: Unable to fetch DSO from $dso_url")
+  local dso_response; dso_response=$(
+    # "${CURL_CMD[@]}" -w '%{header_json}' "$dso_url"  # NOTE: header_json is supported by curl >= 7.83.0, below is a workaround for older versions
+    local response; response=$("${CURL_CMD[@]}" -i "$dso_url") || exit 1
+    local response_body; response_body=$(echo "$response" | sed '0,/^\r*$/d')
+    local response_header; response_header=$(echo "$response" | sed '/^\r*$/,$d')
+    local header_last_modified; header_last_modified=$(echo "$response_header" | grep '^last-modified:' | sed 's/^last-modified: //' | jq -nR '{"last-modified": [inputs]}')
+    echo "$response_body$header_last_modified"
+  ) || { echo "ERROR: Unable to fetch DSO from $dso_url" >&2; return 1; }
+
+  [[ $(echo "$dso_response" | jq -s length) -eq 2 ]] ||
+    { echo "ERROR: Unable to parse the response from $dso_url" >&2; return 1; }
+
+  local dso_data; dso_data=$(echo "$dso_response" | jq -s '.[0]')
+  local header_json; header_json=$(echo "$dso_response" | jq -s '.[1]')
+  local last_modified; last_modified=$(echo "$header_json" | jq -r '."last-modified" // empty | .[]')
+
+  if [[ -n $last_modified ]]; then
+    local last_modified_seconds modified_seconds_ago
+    last_modified_seconds=$(date -d "$last_modified" +%s)
+    modified_seconds_ago=$(( $(date +%s) - last_modified_seconds ))
+  fi
 
   local weights_from_file; weights_from_file=$(
     yq -eo json . "$configs_dir/$config_file" | jq -eS '[.approvedSvIdentities[] | {(.name): .rewardWeightBps}] | add'
-  ) || diff_errors+=("ERROR: Unable to read and parse weights from $config_file")
+  ) || { echo "ERROR: Unable to read and parse weights from $config_file" >&2; return 1; }
 
   local weights_from_url; weights_from_url=$(
-    "${CURL_CMD[@]}" "$dso_url" | jq -eS '[.dso_rules.contract.payload.svs[][1] | {(.name): .svRewardWeight | tonumber}] | add'
-  ) || diff_errors+=("ERROR: Unable to fetch and parse weights from $dso_url")
+    echo "$dso_data" | jq -eS '[.dso_rules.contract.payload.svs[][1] | {(.name): .svRewardWeight | tonumber}] | add'
+  ) || { echo "ERROR: Unable to parse weights from $dso_url" >&2; return 1; }
 
-  if [[ ${#diff_errors[@]} -eq 0 ]]; then
-    local diff_options=()
+  local diff_options=()
+  [[ $OUTPUT_IS_TERMINAL == true ]] && diff_options+=("--color=always")
+  [[ ${QUIET-} == true ]] && diff_options+=("--brief")
 
-    if [[ $OUTPUT_IS_TERMINAL == true ]]; then
-      diff_options+=("--color=always")
-    fi
+  local dso_url_label="$dso_url"
 
-    if [[ ${QUIET-} == true ]]; then
-      diff_options+=("--brief")
-    fi
+  [[ -n ${modified_seconds_ago-} ]] &&
+    dso_url_label+=" (last modified $modified_seconds_ago seconds ago)"
 
-    local return_code
-    diff_result=$(diff -su "${diff_options[@]}" --label "$config_file" --label "$dso_url" <(echo "$weights_from_file") <(echo "$weights_from_url")) && return_code=$? || return_code=$?
-    echo "$diff_result"
+  local diff_result return_code
+  diff_result=$(diff -su "${diff_options[@]}" --label "$config_file" --label "$dso_url_label" <(echo "$weights_from_file") <(echo "$weights_from_url")) && return_code=$? || return_code=$?
+  echo "$diff_result"
 
-    return "$return_code"
-  else
-    for error in "${diff_errors[@]}"; do
-      echo "$error" >&2
-    done
-
-    return 1
-  fi
+  return "$return_code"
 }
 
 compare() {
-  local envs_and_scan_urls=("${ENVS_AND_SCAN_URLS[@]}")
+  local envs_and_dso_urls=("${ENVS_AND_DSO_URLS[@]}")
   local return_code=0
 
-  for ((i = 0; i < ${#envs_and_scan_urls[@]}; i += 2)); do
-    local env=${envs_and_scan_urls[i]}
-    local scan_url=${envs_and_scan_urls[i + 1]}
+  for ((i = 0; i < ${#envs_and_dso_urls[@]}; i += 2)); do
+    local env=${envs_and_dso_urls[i]}
+    local dso_url=${envs_and_dso_urls[i + 1]}
 
     local exit_code
-    config_diff "$env/approved-sv-id-values.yaml" "$scan_url" && exit_code=$? || exit_code=$?
+    config_diff "$env/approved-sv-id-values.yaml" "$dso_url" && exit_code=$? || exit_code=$?
     return_code=$((return_code | exit_code))
     echo
   done
@@ -112,6 +120,7 @@ main() {
 
   local result exit_code
   result=$(compare) && exit_code=$? || exit_code=$?
+  echo
   echo "$result" | less --quit-if-one-screen --no-init --RAW-CONTROL-CHARS
   exit "$exit_code"
 }
