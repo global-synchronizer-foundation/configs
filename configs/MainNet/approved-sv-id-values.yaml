@@ -1,7 +1,7 @@
 approvedSvIdentities:
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWLDU/xZzCtl6prd15Dyi+2/zMtSbHpQh8wJ/R3J9YKDVNpkJVo+qBkmYYSdlAifLz1aymUKqZlWDBvtQCJIaA==
-    rewardWeightBps: 405000
+    rewardWeightBps: 375000
     extraBeneficiaries:
       - beneficiary: "validator_GSF-1::12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79"
         weight: "100000"
@@ -15,8 +15,6 @@ approvedSvIdentities:
         weight: "10000"
       - beneficiary: "proofgroup-validator-1::122021b7624f77a1a095714acc74337bebb0f49cf0f8ea565d4f0b12e09bb5deb1e1" # Proogroup
         weight: "10000"
-      - beneficiary: "fivenorth-mainnet1-1::12208a2c7404062865085b75b9e8a3cbca56f272c0103bc55b0e65ca7c2dd855294a" # Five North
-        weight: "30000"
       - beneficiary: "copper-mainnet-validator::122038dd7fcbdd68bde47034abfd582cbe38854d94dec10c18a7589706914e2b6e61" # Copper Clearloop CIP-0039
         weight: "10000"
       - beneficiary: "Elliptic-validator-1::12205ddf609265d68ee694480f86331de14766bdac30800d04e491b93aca1a81d629" # Elliptic CIP-0044
@@ -72,4 +70,7 @@ approvedSvIdentities:
     rewardWeightBps: 0
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGe25jhw59y0TXgGkEmWLgCjG9D3yq4GweHzGLQ7cnbNVUqiG/ndXeFLJG1rQy6a+Ky0XfJDdcs8yCvbbsV+qqg==
-    rewardWeightBps: 0
+    rewardWeightBps: 30000
+    extraBeneficiaries:
+      - beneficiary: "fivenorth-mainnet1-1::12208a2c7404062865085b75b9e8a3cbca56f272c0103bc55b0e65ca7c2dd855294a"
+        weight: "30000"
