@@ -63,9 +63,6 @@ approvedSvIdentities:
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJkWEYEGZXazTVemWdA9IEjV7LryooS6OsypdNi3rpfLDgGffwZJhjGcA1wWiOpxQkbM8B0VkfNLs24OCLAf1HA==
     rewardWeightBps: 30000
-    extraBeneficiaries:
-      - beneficiary: "fivenorth-testnet-1::122091d6f629977b9ef41b30e467702839d858b3ab8cadf6ac756fd2376a29d9928f"
-        weight: "30000"
   - name: Proof-Group-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEX1G0Gc5kYqisXQk0GZpygZ7cOmo5AHh0+87ZVnwPUXdA9msdGm/XCCTfFz4g7x4QfhgXHEARGSTqvIq5PbUqTQ==
     rewardWeightBps: 0
