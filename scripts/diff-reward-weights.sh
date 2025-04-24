@@ -19,6 +19,8 @@ SCRIPTS_DIR=$(dirname "$0")
 
 [[ -t 1 ]] && OUTPUT_IS_TERMINAL=true || OUTPUT_IS_TERMINAL=false
 
+IS_LINUX=$([[ "$(uname -s)" == "Linux" ]] && echo true || echo false)
+
 usage() {
   echo "Usage: $(basename "$0") [-q]"
   echo
@@ -39,9 +41,9 @@ config_diff() {
   local dso_response; dso_response=$(
     # "${CURL_CMD[@]}" -w '%{header_json}' "$dso_url"  # NOTE: header_json is supported by curl >= 7.83.0, below is a workaround for older versions
     local response; response=$("${CURL_CMD[@]}" -i "$dso_url") || exit 1
-    local response_body; response_body=$(echo "$response" | sed '0,/^\r*$/d')
+    local response_body; response_body=$(echo "$response" | sed '1,/^\r*$/d')
     local response_header; response_header=$(echo "$response" | sed '/^\r*$/,$d')
-    local header_last_modified; header_last_modified=$(echo "$response_header" | grep '^last-modified:' | sed 's/^last-modified: //' | jq -nR '{"last-modified": [inputs]}')
+    local header_last_modified; header_last_modified=$(echo "$response_header" | grep '^last-modified:' | sed 's/^last-modified: //' | jq -nR '{"last-modified": [inputs | rtrimstr("\r")]}')
     echo "$response_body$header_last_modified"
   ) || { echo "ERROR: Unable to fetch DSO from $dso_url" >&2; return 1; }
 
@@ -54,7 +56,11 @@ config_diff() {
 
   if [[ -n $last_modified ]]; then
     local last_modified_seconds modified_seconds_ago
-    last_modified_seconds=$(date -d "$last_modified" +%s)
+
+    "$IS_LINUX" &&
+      last_modified_seconds=$(date -d "$last_modified" +%s) ||
+      last_modified_seconds=$(LC_ALL=C date -j -f "%a, %d %b %Y %T %Z" "$last_modified" +%s)
+
     modified_seconds_ago=$(( $(date +%s) - last_modified_seconds ))
   fi
 
