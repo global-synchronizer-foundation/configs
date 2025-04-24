@@ -118,6 +118,10 @@ main() {
       ;;
   esac
 
+  for cmd in jq yq curl; do
+    command -v "$cmd" >/dev/null || { echo "ERROR: $cmd is required. Please install it" >&2; exit 1; }
+  done
+
   local result exit_code
   result=$(compare) && exit_code=$? || exit_code=$?
   echo
