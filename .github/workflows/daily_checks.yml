@@ -26,7 +26,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check diff for reward weights
-        id: diff-reward-weights
         run: scripts/diff-reward-weights.sh
 
       - name: Post text to a Slack channel
