@@ -1,0 +1,29 @@
+name: Daily Checks
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"  # Every day at midnight UTC
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash --noprofile --norc -euo pipefail {0}
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check diff for reward weights
+        run: scripts/diff-reward-weights.sh
