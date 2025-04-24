@@ -26,4 +26,15 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check diff for reward weights
+        id: diff-reward-weights
         run: scripts/diff-reward-weights.sh
+
+      - name: Post text to a Slack channel
+        if: failure()
+        uses: slackapi/slack-github-action@485a9d42d3a73031f12ec201c457e2162c45d02d  # v2.0.0
+        with:
+          method: chat.postMessage
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
+          payload: |
+            channel: ${{ secrets.SLACK_CHANNEL_ID_SUPERVALIDATOR_OPERATIONS }}
+            text: "One more more configuration checks failed. Please check the <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|logs> for details."
