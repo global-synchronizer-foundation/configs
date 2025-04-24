@@ -16,7 +16,7 @@ approvedSvIdentities:
     rewardWeightBps: 130000
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETri1wBeoV3AYnEF/slvViz9GO2g2lcxUQ3SadBTA70Kn87KzAZ/25n6+hhuRebuuGlm70KFKGJGr8RFd1YjB1Q==
-    rewardWeightBps: 375000
+    rewardWeightBps: 365000
     extraBeneficiaries:
       - beneficiary: "GSF-validator-1::1220cff733e3a29f50b3104f573d51461e85cd685b28dafa684c40813975e6e2ce3d"
         weight: "100000"
@@ -27,8 +27,6 @@ approvedSvIdentities:
       - beneficiary: "copper-testnetValidator-1::1220030d943f303ae8703182bc73014a62107f46086098ae89353cd969f35a1ecb31" # Copper
         weight: "10000"
       - beneficiary: "DFNS-validator-1::1220b916c84570d2b3d3d4692a8d905ba410f4da4c6cc9578ca9284dfa64235e8a2d" # Dfns
-        weight: "10000"
-      - beneficiary: "proofgroup-testnet-1::1220e2716c1df267d66874c12f393f75293f07c9cd3d82a6c74fa87faffe5f79213e" # Proogroup
         weight: "10000"
       - beneficiary: "copper-testnetValidator-1::1220030d943f303ae8703182bc73014a62107f46086098ae89353cd969f35a1ecb31" # Copper Clearloop CIP-0039
         weight: "10000"
@@ -65,7 +63,7 @@ approvedSvIdentities:
     rewardWeightBps: 30000
   - name: Proof-Group-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEX1G0Gc5kYqisXQk0GZpygZ7cOmo5AHh0+87ZVnwPUXdA9msdGm/XCCTfFz4g7x4QfhgXHEARGSTqvIq5PbUqTQ==
-    rewardWeightBps: 0
+    rewardWeightBps: 10000
   - name: Liberty-City-Ventures-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzPiiGTxeSKO+HBOekWSXKpAziP2hlRvwdYmbvmL8BwdCBsRZGc5UELlo9rS3DOfhg6/W+oundvzqzsNQKVBb4w==
     rewardWeightBps: 0
