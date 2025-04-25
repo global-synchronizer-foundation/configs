@@ -1,0 +1,36 @@
+name: Fetch DSO Configs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"  # Every day at midnight UTC
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash --noprofile --norc -euo pipefail {0}
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Fetch DSO configs
+        run: scripts/fetch-dso-configs.sh
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e  # v7.0.8
+        with:
+          commit-message: "Update DSO configs"
+          branch: update-dso-configs
