@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"  # Every day at midnight UTC
+  push:
+    branches:
+      - stas/actions_fetch_dso_configs_regularily
 
 permissions: {}
 
