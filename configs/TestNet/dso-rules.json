@@ -1,0 +1,251 @@
+{
+  "contract": {
+    "contract_id": "00df095142179e0899703344104cce1c3215b7f5c0ce1cb9ef4947daaab489533bca1012209610c6df829eb721156140cb21ff8cb8c5550848464607b8ad6181de15d81b98",
+    "created_at": "2025-04-25T09:36:20.965909Z",
+    "created_event_blob": "CgMyLjES1ykKRQDfCVFCF54ImXAzRBBMzhwyFbf1wM4cue9JR9qqtIlTO8oQEiCWEMbfgp63IRVhQMsh/4y4xVUISEZGB7itYYHeFdgbmBIVc3BsaWNlLWRzby1nb3Zlcm5hbmNlGl4KQDllZTgzYmZkODcyZjkxZTY1OWI4YTg0MzljNWI0ZWFmMjQwYmNmNmYxOTY5OGY4ODRkN2Q3OTkzYWI0OGM0MDESBlNwbGljZRIIRHNvUnVsZXMaCERzb1J1bGVzIpYnapMnCk0KSzpJRFNPOjoxMjIwZTFlNTk0Y2RiMjg3YWVhYzNlMWU2ZDYyZTdkMmRiNDZiNzU2YTVkMDE2NTZjMjZmMWYxYTE1MTM0NWJmMmU1MwoECgIYBArMGArJGGLGGAqWAgpmOmRDNy1UZWNobm9sb2d5LVNlcnZpY2VzLUxpbWl0ZWQ6OjEyMjBiYTUyMTZlNmVkNmVhYzVkNzA5ZGRlNTI4MjM2OTY1NDgyNWYxNDQ4MDcxY2JjMzVlNmI0NzUxYjY3ZDE3YTI1EqsBaqgBCiIKIEIeQzctVGVjaG5vbG9neS1TZXJ2aWNlcy1MaW1pdGVkCgsKCWoHCgUKAxi6YQoGCgQYnKYMCm0Ka0JpUEFSOjpDNy1UZWNobm9sb2d5LVNlcnZpY2VzLUxpbWl0ZWQ6OjEyMjBiYTUyMTZlNmVkNmVhYzVkNzA5ZGRlNTI4MjM2OTY1NDgyNWYxNDQ4MDcxY2JjMzVlNmI0NzUxYjY3ZDE3YTI1Ct8BClQ6UkN1bWJlcmxhbmQtMTo6MTIyMDcxMjI3ZjZlNzc4MjFlNTY3NjlhMmE0YjJjYjc5OTBlZDkyNmY4NmM0ZDhjZmUzY2Q5OGZlZjM3NTdjNGZjNDgShgFqgwEKEAoOQgxDdW1iZXJsYW5kLTEKCgoIagYKBAoCGDIKBgoEGKDvDwpbCllCV1BBUjo6Q3VtYmVybGFuZC0xOjoxMjIwNzEyMjdmNmU3NzgyMWU1Njc2OWEyYTRiMmNiNzk5MGVkOTI2Zjg2YzRkOGNmZTNjZDk4ZmVmMzc1N2M0ZmM0OArfAQpUOlJDdW1iZXJsYW5kLTI6OjEyMjA2NGQyMzI0ZTMxZjczZGI4NWIwYzAxZjY2MDg1N2Q3OTc4MjkyMzBiYjUwMWY2MjRiZDJiODcwYmQ3OTk3YTBiEoYBaoMBChAKDkIMQ3VtYmVybGFuZC0yCgoKCGoGCgQKAhg2CgYKBBig7w8KWwpZQldQQVI6OkN1bWJlcmxhbmQtMjo6MTIyMDY0ZDIzMjRlMzFmNzNkYjg1YjBjMDFmNjYwODU3ZDc5NzgyOTIzMGJiNTAxZjYyNGJkMmI4NzBiZDc5OTdhMGIK6AEKVzpVRGlnaXRhbC1Bc3NldC0xOjoxMjIwMWQ2NjM5MmU5ZmUxZTQ3ZTNiMjYyZGEwNzEzN2M4Njk4NTg1Mjg0NDNiZWU0ZTYyMzA4OGMwNzU4NDRiZDIwZRKMAWqJAQoTChFCD0RpZ2l0YWwtQXNzZXQtMQoKCghqBgoECgIYEAoGCgQY4KcSCl4KXEJaUEFSOjpEaWdpdGFsLUFzc2V0LTE6OjEyMjAxZDY2MzkyZTlmZTFlNDdlM2IyNjJkYTA3MTM3Yzg2OTg1ODUyODQ0M2JlZTRlNjIzMDg4YzA3NTg0NGJkMjBlCugBClc6VURpZ2l0YWwtQXNzZXQtMjo6MTIyMGQ4NzQ5YTgwN2Y4NGZmZDIxNTYyMjg0NjA0YTk0ZTQ1MDc2MjA0NmMyZjcwZDdhMmVkYjI0MGQ5OGRmNjg1MjQSjAFqiQEKEwoRQg9EaWdpdGFsLUFzc2V0LTIKCgoIagYKBAoCGAAKBgoEGOCnEgpeClxCWlBBUjo6RGlnaXRhbC1Bc3NldC0yOjoxMjIwZDg3NDlhODA3Zjg0ZmZkMjE1NjIyODQ2MDRhOTRlNDUwNzYyMDQ2YzJmNzBkN2EyZWRiMjQwZDk4ZGY2ODUyNArhAQpUOlJGaXZlLU5vcnRoLTE6OjEyMjAzYWFhN2E1ZGE0MTFkMmQyZTk0NzM3ODYyN2YwZGM0NDVhNDc4YzU5MWRlMzE2NTkyM2I4ZGU3MDQ5MThmZDU4EogBaoUBChAKDkIMRml2ZS1Ob3J0aC0xCgwKCmoICgYKBBi02gEKBgoEGODUAwpbCllCV1BBUjo6Rml2ZS1Ob3J0aC0xOjoxMjIwM2FhYTdhNWRhNDExZDJkMmU5NDczNzg2MjdmMGRjNDQ1YTQ3OGM1OTFkZTMxNjU5MjNiOGRlNzA0OTE4ZmQ1OAqVAgpmOmRHbG9iYWwtU3luY2hyb25pemVyLUZvdW5kYXRpb246OjEyMjBjYThjNTA4ZTA5NmE3NDgzMjk2OTY1ZDE5OTliMjlmZjlkZDIwZGIwNzJhN2ZhYjFjMmI5MWQzODQ1YTM2ZDlkEqoBaqcBCiIKIEIeR2xvYmFsLVN5bmNocm9uaXplci1Gb3VuZGF0aW9uCgoKCGoGCgQKAhgqCgYKBBiw4y0KbQprQmlQQVI6Okdsb2JhbC1TeW5jaHJvbml6ZXItRm91bmRhdGlvbjo6MTIyMGNhOGM1MDhlMDk2YTc0ODMyOTY5NjVkMTk5OWIyOWZmOWRkMjBkYjA3MmE3ZmFiMWMyYjkxZDM4NDVhMzZkOWQKgAIKXzpdTGliZXJ0eS1DaXR5LVZlbnR1cmVzLTE6OjEyMjBkOTMwODYwOWFmNjNkZjA0MzhiM2ZlNzZmZDFiNDE0ZDg2ZTlmN2I0ZTc5OTQwZDcyZTQ3Mzg2Yzc3MzZiMzRjEpwBapkBChsKGUIXTGliZXJ0eS1DaXR5LVZlbnR1cmVzLTEKDAoKaggKBgoEGNSzAgoECgIYAApmCmRCYlBBUjo6TGliZXJ0eS1DaXR5LVZlbnR1cmVzLTE6OjEyMjBkOTMwODYwOWFmNjNkZjA0MzhiM2ZlNzZmZDFiNDE0ZDg2ZTlmN2I0ZTc5OTQwZDcyZTQ3Mzg2Yzc3MzZiMzRjCugBClc6VU1QQy1Ib2xkaW5nLUluYzo6MTIyMDhmZGJmNjE1NmY2MDdjMTA0NTEyY2UxMmZjYjM4MmNlM2VjMzExNmU3YWE1ZGRiMDJiN2ZjZTIzN2VmZDQ4NDMSjAFqiQEKEwoRQg9NUEMtSG9sZGluZy1JbmMKCgoIagYKBAoCGBAKBgoEGOC2DQpeClxCWlBBUjo6TVBDLUhvbGRpbmctSW5jOjoxMjIwOGZkYmY2MTU2ZjYwN2MxMDQ1MTJjZTEyZmNiMzgyY2UzZWMzMTE2ZTdhYTVkZGIwMmI3ZmNlMjM3ZWZkNDg0MwrYAQpSOlBPcmItMS1MUC0xOjoxMjIwYTNkMGE2NzVhZWM4NTlhODBkMDY0YjY2OGJjZjBjZGQxMmUwYjQ2ZGE1ODllOTI3ZWMxMDA0YmIyZmUzNDljNhKBAWp/Cg4KDEIKT3JiLTEtTFAtMQoKCghqBgoECgIYHAoGCgQYwJoMClkKV0JVUEFSOjpPcmItMS1MUC0xOjoxMjIwYTNkMGE2NzVhZWM4NTlhODBkMDY0YjY2OGJjZjBjZGQxMmUwYjQ2ZGE1ODllOTI3ZWMxMDA0YmIyZmUzNDljNgriAQpVOlNQcm9vZi1Hcm91cC0xOjoxMjIwOTgzMDM1ZGUwOTA2NjkyMzFlZDEwNzJjYjI4ZjAxZTk4NDZkYTg1MzE2M2RjM2JjMWJmZTk5ZjIxZTFlZDUzNhKIAWqFAQoRCg9CDVByb29mLUdyb3VwLTEKDAoKaggKBgoEGLiJAgoECgIYAApcClpCWFBBUjo6UHJvb2YtR3JvdXAtMTo6MTIyMDk4MzAzNWRlMDkwNjY5MjMxZWQxMDcyY2IyOGYwMWU5ODQ2ZGE4NTMxNjNkYzNiYzFiZmU5OWYyMWUxZWQ1MzYK8gEKWjpYU1YtTm9kZW9wcy1MaW1pdGVkOjoxMjIwNmQzMDI2MDU5M2ZkYTg1NTQwMGY5NjZiMDRhMjMxZTg4YzM4NzY2NWFmODY4ZjJjZTM2MDVjOTVkZTQ3YzMyYxKTAWqQAQoWChRCElNWLU5vZGVvcHMtTGltaXRlZAoLCglqBwoFCgMYmgEKBgoEGMCaDAphCl9CXVBBUjo6U1YtTm9kZW9wcy1MaW1pdGVkOjoxMjIwNmQzMDI2MDU5M2ZkYTg1NTQwMGY5NjZiMDRhMjMxZTg4YzM4NzY2NWFmODY4ZjJjZTM2MDVjOTVkZTQ3YzMyYwrxAQpaOlhUcmFkZXdlYi1NYXJrZXRzLTE6OjEyMjA4ZDNiZmJmYTQzMjNjNmRlMjliZmNmYWRjYzMyYzc3MWZmZTQzZjk2N2Y4NTZlMDU1MjI5MWQzYmNkNzliZWNkEpIBao8BChYKFEISVHJhZGV3ZWItTWFya2V0cy0xCgoKCGoGCgQKAhgACgYKBBjAmgwKYQpfQl1QQVI6OlRyYWRld2ViLU1hcmtldHMtMTo6MTIyMDhkM2JmYmZhNDMyM2M2ZGUyOWJmY2ZhZGNjMzJjNzcxZmZlNDNmOTY3Zjg1NmUwNTUyMjkxZDNiY2Q3OWJlY2QK7QYK6gZi5wYKqwEKSjpIQzc6OjEyMjBlY2VhMGFlNjRiYTAxYzAwMjdhNTYwN2JjZjU3MjJiYzkyNWI2OWRjODA2MTExZmNhNmIxNGFlZTM5YjkxNjAwEl1qWwoGCgRCAkM3ClEKT0JNUEFSOjpDNzo6MTIyMGVjZWEwYWU2NGJhMDFjMDAyN2E1NjA3YmNmNTcyMmJjOTI1YjY5ZGM4MDYxMTFmY2E2YjE0YWVlMzliOTE2MDAKyQEKVDpSQ3VtYmVybGFuZC0yOjoxMjIwNmNjNjE5M2U1NGE5OWRjMGY1NzU5MWFjMGJkYWQ5MjllYjg5ZGM0MWUyOTA3MTYzMGZhNmYwN2Q2ZTM2MDM2ZBJxam8KEAoOQgxDdW1iZXJsYW5kLTIKWwpZQldQQVI6OkN1bWJlcmxhbmQtMjo6MTIyMDZjYzYxOTNlNTRhOTlkYzBmNTc1OTFhYzBiZGFkOTI5ZWI4OWRjNDFlMjkwNzE2MzBmYTZmMDdkNmUzNjAzNmQKgQIKZjpkR2xvYmFsLVN5bmNocm9uaXplci1Gb3VuZGF0aW9uOjoxMjIwZDY1YTVmNjIzZTkxOGQ1NGMyMGY0NjNjM2IyOWM1YzA1ZWNkYTFhNjM2MzE4MWZlZjI2OGZkMDk4NTBhNmViNRKWAWqTAQoiCiBCHkdsb2JhbC1TeW5jaHJvbml6ZXItRm91bmRhdGlvbgptCmtCaVBBUjo6R2xvYmFsLVN5bmNocm9uaXplci1Gb3VuZGF0aW9uOjoxMjIwZDY1YTVmNjIzZTkxOGQ1NGMyMGY0NjNjM2IyOWM1YzA1ZWNkYTFhNjM2MzE4MWZlZjI2OGZkMDk4NTBhNmViNQrmAQpdOltMaWJlcnR5LUNpdHktVmVudHVyZXM6OjEyMjBhOTFjYTE2Y2QzYmNmZWZkNTNlMTJkZDdjYTI4ZjNkOWVkNzVhNDQyOTY0MzUwNjUwZWMwNjNmY2ZjM2U1YzdhEoQBaoEBChkKF0IVTGliZXJ0eS1DaXR5LVZlbnR1cmVzCmQKYkJgUEFSOjpMaWJlcnR5LUNpdHktVmVudHVyZXM6OjEyMjBhOTFjYTE2Y2QzYmNmZWZkNTNlMTJkZDdjYTI4ZjNkOWVkNzVhNDQyOTY0MzUwNjUwZWMwNjNmY2ZjM2U1YzdhClkKVzpVTVBDLUhvbGRpbmctSW5jOjoxMjIwOGZkYmY2MTU2ZjYwN2MxMDQ1MTJjZTEyZmNiMzgyY2UzZWMzMTE2ZTdhYTVkZGIwMmI3ZmNlMjM3ZWZkNDg0Mwq+BAq7BGq4BAoECgIYFAoECgIYCgoOCgxqCgoICgYYgJCd6RoKDgoMagoKCAoGGICQnekaCg4KDGoKCggKBhiAkJ3pGgoPCg1qCwoJCgcYgICdjpojCg0KC2oJCgcKBRiA9uBCCikKJ2olCiMKIWofCgQKAhgECgQKAhgECgQKAhgECgQKAhhkCgUKAxiABAoFCgMYgBAKigMKhwNqhAMKzwEKzAFiyQEKxgEKVUJTZ2xvYmFsLWRvbWFpbjo6MTIyMGUxZTU5NGNkYjI4N2FlYWMzZTFlNmQ2MmU3ZDJkYjQ2Yjc1NmE1ZDAxNjU2YzI2ZjFmMWExNTEzNDViZjJlNTMSbWprChQKEnoQCg5EU19PcGVyYXRpb25hbApICkZCRFRPRE8oIzQ5MDApOiBzaGFyZSBDb21ldEJGVCBnZW5lc2lzLmpzb24gb2Ygc3YxIHZpYSBEc29SdWxlcyBjb25maWcuCgkKB1IFCgMYkBwKVwpVQlNnbG9iYWwtZG9tYWluOjoxMjIwZTFlNTk0Y2RiMjg3YWVhYzNlMWU2ZDYyZTdkMmRiNDZiNzU2YTVkMDE2NTZjMjZmMWYxYTE1MTM0NWJmMmU1MwpXClVCU2dsb2JhbC1kb21haW46OjEyMjBlMWU1OTRjZGIyODdhZWFjM2UxZTZkNjJlN2QyZGI0NmI3NTZhNWQwMTY1NmMyNmYxZjFhMTUxMzQ1YmYyZTUzChsKGVIXChVqEwoLCgkpANQaO8sxBgAKBAoCGAQK2gEK1wFi1AEKaApcQlpNRUQ6OkRpZ2l0YWwtQXNzZXQtMjo6MTIyMDQyM2U0MzI1NTAzYzY4NGIyNjZlYTk4NGRiMTkyMTc3ZDY5ZjhhZTVhNTYxYzcwMzRhYjY1ZmIzMmI0NGM1MmESCGoGCgQKAhgACmgKXEJaUEFSOjpEaWdpdGFsLUFzc2V0LTI6OjEyMjBkODc0OWE4MDdmODRmZmQyMTU2MjI4NDYwNGE5NGU0NTA3NjIwNDZjMmY3MGQ3YTJlZGIyNDBkOThkZjY4NTI0EghqBgoECgIYAAoECgIQACpJRFNPOjoxMjIwZTFlNTk0Y2RiMjg3YWVhYzNlMWU2ZDYyZTdkMmRiNDZiNzU2YTVkMDE2NTZjMjZmMWYxYTE1MTM0NWJmMmU1MzkVyiQRlzMGAEIqCiYKJAgBEiBRyXUYDJCYtZNBtOxi/Kq35V6xtN1+flNUYbmKCM+8hxAe",
+    "payload": {
+      "config": {
+        "actionConfirmationTimeout": {
+          "microseconds": "3600000000"
+        },
+        "decentralizedSynchronizer": {
+          "activeSynchronizerId": "global-domain::1220e1e594cdb287aeac3e1e6d62e7d2db46b756a5d01656c26f1f1a151345bf2e53",
+          "lastSynchronizerId": "global-domain::1220e1e594cdb287aeac3e1e6d62e7d2db46b756a5d01656c26f1f1a151345bf2e53",
+          "synchronizers": [
+            [
+              "global-domain::1220e1e594cdb287aeac3e1e6d62e7d2db46b756a5d01656c26f1f1a151345bf2e53",
+              {
+                "acsCommitmentReconciliationInterval": "1800",
+                "cometBftGenesisJson": "TODO(#4900): share CometBFT genesis.json of sv1 via DsoRules config.",
+                "state": "DS_Operational"
+              }
+            ]
+          ]
+        },
+        "dsoDelegateInactiveTimeout": {
+          "microseconds": "70000000"
+        },
+        "maxTextLength": "1024",
+        "nextScheduledSynchronizerUpgrade": {
+          "migrationId": "2",
+          "time": "2025-04-02T13:00:00Z"
+        },
+        "numMemberTrafficContractsThreshold": "5",
+        "numUnclaimedRewardsThreshold": "10",
+        "svOnboardingConfirmedTimeout": {
+          "microseconds": "3600000000"
+        },
+        "svOnboardingRequestTimeout": {
+          "microseconds": "3600000000"
+        },
+        "synchronizerNodeConfigLimits": {
+          "cometBft": {
+            "maxNodeIdLength": "50",
+            "maxNumCometBftNodes": "2",
+            "maxNumGovernanceKeys": "2",
+            "maxNumSequencingKeys": "2",
+            "maxPubKeyLength": "256"
+          }
+        },
+        "voteRequestTimeout": {
+          "microseconds": "604800000000"
+        }
+      },
+      "dso": "DSO::1220e1e594cdb287aeac3e1e6d62e7d2db46b756a5d01656c26f1f1a151345bf2e53",
+      "dsoDelegate": "MPC-Holding-Inc::12208fdbf6156f607c104512ce12fcb382ce3ec3116e7aa5ddb02b7fce237efd4843",
+      "epoch": "2",
+      "initialTrafficState": [
+        [
+          "MED::Digital-Asset-2::1220423e4325503c684b266ea984db192177d69f8ae5a561c7034ab65fb32b44c52a",
+          {
+            "consumedTraffic": "0"
+          }
+        ],
+        [
+          "PAR::Digital-Asset-2::1220d8749a807f84ffd21562284604a94e450762046c2f70d7a2edb240d98df68524",
+          {
+            "consumedTraffic": "0"
+          }
+        ]
+      ],
+      "isDevNet": false,
+      "offboardedSvs": [
+        [
+          "C7::1220ecea0ae64ba01c0027a5607bcf5722bc925b69dc806111fca6b14aee39b91600",
+          {
+            "name": "C7",
+            "participantId": "PAR::C7::1220ecea0ae64ba01c0027a5607bcf5722bc925b69dc806111fca6b14aee39b91600"
+          }
+        ],
+        [
+          "Cumberland-2::12206cc6193e54a99dc0f57591ac0bdad929eb89dc41e29071630fa6f07d6e36036d",
+          {
+            "name": "Cumberland-2",
+            "participantId": "PAR::Cumberland-2::12206cc6193e54a99dc0f57591ac0bdad929eb89dc41e29071630fa6f07d6e36036d"
+          }
+        ],
+        [
+          "Global-Synchronizer-Foundation::1220d65a5f623e918d54c20f463c3b29c5c05ecda1a6363181fef268fd09850a6eb5",
+          {
+            "name": "Global-Synchronizer-Foundation",
+            "participantId": "PAR::Global-Synchronizer-Foundation::1220d65a5f623e918d54c20f463c3b29c5c05ecda1a6363181fef268fd09850a6eb5"
+          }
+        ],
+        [
+          "Liberty-City-Ventures::1220a91ca16cd3bcfefd53e12dd7ca28f3d9ed75a442964350650ec063fcfc3e5c7a",
+          {
+            "name": "Liberty-City-Ventures",
+            "participantId": "PAR::Liberty-City-Ventures::1220a91ca16cd3bcfefd53e12dd7ca28f3d9ed75a442964350650ec063fcfc3e5c7a"
+          }
+        ]
+      ],
+      "svs": [
+        [
+          "C7-Technology-Services-Limited::1220ba5216e6ed6eac5d709dde5282369654825f1448071cbc35e6b4751b67d17a25",
+          {
+            "joinedAsOfRound": {
+              "number": "6237"
+            },
+            "name": "C7-Technology-Services-Limited",
+            "participantId": "PAR::C7-Technology-Services-Limited::1220ba5216e6ed6eac5d709dde5282369654825f1448071cbc35e6b4751b67d17a25",
+            "svRewardWeight": "100750"
+          }
+        ],
+        [
+          "Cumberland-1::122071227f6e77821e56769a2a4b2cb7990ed926f86c4d8cfe3cd98fef3757c4fc48",
+          {
+            "joinedAsOfRound": {
+              "number": "25"
+            },
+            "name": "Cumberland-1",
+            "participantId": "PAR::Cumberland-1::122071227f6e77821e56769a2a4b2cb7990ed926f86c4d8cfe3cd98fef3757c4fc48",
+            "svRewardWeight": "130000"
+          }
+        ],
+        [
+          "Cumberland-2::122064d2324e31f73db85b0c01f660857d797829230bb501f624bd2b870bd7997a0b",
+          {
+            "joinedAsOfRound": {
+              "number": "27"
+            },
+            "name": "Cumberland-2",
+            "participantId": "PAR::Cumberland-2::122064d2324e31f73db85b0c01f660857d797829230bb501f624bd2b870bd7997a0b",
+            "svRewardWeight": "130000"
+          }
+        ],
+        [
+          "Digital-Asset-1::12201d66392e9fe1e47e3b262da07137c869858528443bee4e623088c075844bd20e",
+          {
+            "joinedAsOfRound": {
+              "number": "8"
+            },
+            "name": "Digital-Asset-1",
+            "participantId": "PAR::Digital-Asset-1::12201d66392e9fe1e47e3b262da07137c869858528443bee4e623088c075844bd20e",
+            "svRewardWeight": "150000"
+          }
+        ],
+        [
+          "Digital-Asset-2::1220d8749a807f84ffd21562284604a94e450762046c2f70d7a2edb240d98df68524",
+          {
+            "joinedAsOfRound": {
+              "number": "0"
+            },
+            "name": "Digital-Asset-2",
+            "participantId": "PAR::Digital-Asset-2::1220d8749a807f84ffd21562284604a94e450762046c2f70d7a2edb240d98df68524",
+            "svRewardWeight": "150000"
+          }
+        ],
+        [
+          "Five-North-1::12203aaa7a5da411d2d2e947378627f0dc445a478c591de3165923b8de704918fd58",
+          {
+            "joinedAsOfRound": {
+              "number": "13978"
+            },
+            "name": "Five-North-1",
+            "participantId": "PAR::Five-North-1::12203aaa7a5da411d2d2e947378627f0dc445a478c591de3165923b8de704918fd58",
+            "svRewardWeight": "30000"
+          }
+        ],
+        [
+          "Global-Synchronizer-Foundation::1220ca8c508e096a7483296965d1999b29ff9dd20db072a7fab1c2b91d3845a36d9d",
+          {
+            "joinedAsOfRound": {
+              "number": "21"
+            },
+            "name": "Global-Synchronizer-Foundation",
+            "participantId": "PAR::Global-Synchronizer-Foundation::1220ca8c508e096a7483296965d1999b29ff9dd20db072a7fab1c2b91d3845a36d9d",
+            "svRewardWeight": "375000"
+          }
+        ],
+        [
+          "Liberty-City-Ventures-1::1220d9308609af63df0438b3fe76fd1b414d86e9f7b4e79940d72e47386c7736b34c",
+          {
+            "joinedAsOfRound": {
+              "number": "19690"
+            },
+            "name": "Liberty-City-Ventures-1",
+            "participantId": "PAR::Liberty-City-Ventures-1::1220d9308609af63df0438b3fe76fd1b414d86e9f7b4e79940d72e47386c7736b34c",
+            "svRewardWeight": "0"
+          }
+        ],
+        [
+          "MPC-Holding-Inc::12208fdbf6156f607c104512ce12fcb382ce3ec3116e7aa5ddb02b7fce237efd4843",
+          {
+            "joinedAsOfRound": {
+              "number": "8"
+            },
+            "name": "MPC-Holding-Inc",
+            "participantId": "PAR::MPC-Holding-Inc::12208fdbf6156f607c104512ce12fcb382ce3ec3116e7aa5ddb02b7fce237efd4843",
+            "svRewardWeight": "110000"
+          }
+        ],
+        [
+          "Orb-1-LP-1::1220a3d0a675aec859a80d064b668bcf0cdd12e0b46da589e927ec1004bb2fe349c6",
+          {
+            "joinedAsOfRound": {
+              "number": "14"
+            },
+            "name": "Orb-1-LP-1",
+            "participantId": "PAR::Orb-1-LP-1::1220a3d0a675aec859a80d064b668bcf0cdd12e0b46da589e927ec1004bb2fe349c6",
+            "svRewardWeight": "100000"
+          }
+        ],
+        [
+          "Proof-Group-1::1220983035de090669231ed1072cb28f01e9846da853163dc3bc1bfe99f21e1ed536",
+          {
+            "joinedAsOfRound": {
+              "number": "16988"
+            },
+            "name": "Proof-Group-1",
+            "participantId": "PAR::Proof-Group-1::1220983035de090669231ed1072cb28f01e9846da853163dc3bc1bfe99f21e1ed536",
+            "svRewardWeight": "0"
+          }
+        ],
+        [
+          "SV-Nodeops-Limited::12206d30260593fda855400f966b04a231e88c387665af868f2ce3605c95de47c32c",
+          {
+            "joinedAsOfRound": {
+              "number": "77"
+            },
+            "name": "SV-Nodeops-Limited",
+            "participantId": "PAR::SV-Nodeops-Limited::12206d30260593fda855400f966b04a231e88c387665af868f2ce3605c95de47c32c",
+            "svRewardWeight": "100000"
+          }
+        ],
+        [
+          "Tradeweb-Markets-1::12208d3bfbfa4323c6de29bfcfadcc32c771ffe43f967f856e0552291d3bcd79becd",
+          {
+            "joinedAsOfRound": {
+              "number": "0"
+            },
+            "name": "Tradeweb-Markets-1",
+            "participantId": "PAR::Tradeweb-Markets-1::12208d3bfbfa4323c6de29bfcfadcc32c771ffe43f967f856e0552291d3bcd79becd",
+            "svRewardWeight": "100000"
+          }
+        ]
+      ]
+    },
+    "template_id": "9ee83bfd872f91e659b8a8439c5b4eaf240bcf6f19698f884d7d7993ab48c401:Splice.DsoRules:DsoRules"
+  },
+  "domain_id": "global-domain::1220e1e594cdb287aeac3e1e6d62e7d2db46b756a5d01656c26f1f1a151345bf2e53"
+}
