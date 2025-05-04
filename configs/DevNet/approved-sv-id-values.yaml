@@ -52,7 +52,7 @@ approvedSvIdentities:
         weight: "100000"
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgWriOYpZeYXC09cPOKm/s1MzZSrJvKZc3Mz4RqYLsA7j/umQfLFKqWWu1TT77JrrGTTp57aXUTcrGg0DvyRq/Q==
-    rewardWeightBps: 110000
+    rewardWeightBps: 10000
   - name: Tradeweb-Markets-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyKrg8RhVQXq6+EKlwTExaoOOEWMp2JyiA1xRkFZNZo6m5ixBgQwC4vvmkPadDvGsxEniwAfLi0l+1vbnROs04Q==
     rewardWeightBps: 100000
@@ -70,4 +70,4 @@ approvedSvIdentities:
     rewardWeightBps: 10000
   - name: Liberty-City-Ventures-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVpFXAPDcz1WHvXrG35YzF9Fgn5P29oVfFkR+QN7DO4v3b/QzTnH+BsBb01gd3KhkuRg+sLj4vLQo/ZOSSyGO0g==
-    rewardWeightBps: 0
+    rewardWeightBps: 100000

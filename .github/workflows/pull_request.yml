@@ -34,13 +34,33 @@ jobs:
           use_gitignore: false
 
       - name: Check SV IDs for duplicates
-        run: scripts/check-sv-id-dups.sh
+        run: |
+          result=$(scripts/check-sv-id-dups.sh) && exit_code=$? || exit_code=$?
+          echo "$result"
+
+          {
+            echo '```'
+            echo "$result"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          exit "$exit_code"
         env:
           SV_IDS_EXCLUDE: |
             MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsRRntNkOLF2Wh7JxV0rBQPgT+SendIjFLXKUXCrLbVHqomkypHQiZP8OgFMSlByOnr81fqiUt3G36LUpg/fmgA==  # TODO: Remove this when one of DevNet/Digital-Asset-Eng-2 or TestNet/Digital-Asset-1 gets a new ID
 
       - name: Make sure total sum of reward weights doesn't change unless explicitly allowed
-        run: scripts/check-sum-reward-weights-change.sh "$TARGET_BRANCH" "$SOURCE_BRANCH"
+        run: |
+          result=$(scripts/check-sum-reward-weights-change.sh "$TARGET_BRANCH" "$SOURCE_BRANCH") && exit_code=$? || exit_code=$?
+          echo "$result"
+
+          {
+            echo '```'
+            echo "$result"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          exit "$exit_code"
         env:
           SOURCE_BRANCH: ${{ github.event.pull_request.head.sha }}
           TARGET_BRANCH: "origin/${{ github.base_ref }}"
