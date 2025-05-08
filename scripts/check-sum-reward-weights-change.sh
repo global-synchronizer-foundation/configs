@@ -39,7 +39,7 @@ check() {
       echo "INFO: Total reward weight diff for $f is: $total_weight_diff. The change is allowed."
       echo "INFO: New total reward weight for $f is: $total_weight_new."
     else
-      echo "ERROR: Total reward weight diff for $f is: $total_weight_diff. The change is not allowed. Add $mark to the commit message to override." >&2
+      echo "ERROR: Total reward weight diff for $f is: $total_weight_diff. The change is not allowed. Add $mark to the commit message to override."
       exit_code=1
     fi
 
