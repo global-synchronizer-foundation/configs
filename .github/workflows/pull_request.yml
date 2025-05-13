@@ -62,5 +62,5 @@ jobs:
 
           exit "$exit_code"
         env:
-          SOURCE_BRANCH: ${{ github.event.pull_request.head.sha }}
+          SOURCE_BRANCH: ${{ github.sha }}
           TARGET_BRANCH: "origin/${{ github.base_ref }}"
