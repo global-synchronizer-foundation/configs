@@ -1,7 +1,7 @@
 approvedSvIdentities:
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWLDU/xZzCtl6prd15Dyi+2/zMtSbHpQh8wJ/R3J9YKDVNpkJVo+qBkmYYSdlAifLz1aymUKqZlWDBvtQCJIaA==
-    rewardWeightBps: 365000
+    rewardWeightBps: 375000
     extraBeneficiaries:
       - beneficiary: "validator_GSF-1::12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79"
         weight: "100000"
@@ -23,6 +23,8 @@ approvedSvIdentities:
         weight: "10000"
       - beneficiary: "circle-validator-1::12209d457bab21f1ce3d52f979cdf021c2990cb74cf01ef2dcf41bf87a79ddaf3ba8" # Circle CIP-0041
         weight: "100000"
+      - beneficiary: "Quantstamp-validator-1::1220acba2f1ab44b954a6de966678d7cc069e66a3986e4b5f4af29a6445c208f8fb1" # Quantstamp CIP-0057
+        weight: "10000"
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcGfwLnDE3vQuWcHE7CfVABigVK5nPeAjqFf66pIlXpqeoklu4KMnDE4Zse465NcWUgfMnjmmSw53hKRxuR6RFg==
     rewardWeightBps: 159250
