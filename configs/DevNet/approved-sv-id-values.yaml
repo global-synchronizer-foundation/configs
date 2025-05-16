@@ -1,7 +1,7 @@
 approvedSvIdentities:
   - name: SV-Nodeops-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExZqACOeB0Es3PQp+BgBXioU67aO3XTxuM/tDaF05SPYLQlS5zhE+om9CMqAz8BLuNEGqPp/E17DNiaGkLVLfPA==
-    rewardWeightBps: 100000
+    rewardWeightBps: 102500
   - name: Cumberland-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESLPPYUXcHS7yOEmDHHA4+/UueQM9KU26GvMXqYVJh/okOWFzdiXWtSDZfL1dYUJ9q9KrkNztVlANExBTjY70Vw==
     rewardWeightBps: 130000
