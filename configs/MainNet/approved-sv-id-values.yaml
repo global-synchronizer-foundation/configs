@@ -69,3 +69,6 @@ approvedSvIdentities:
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGe25jhw59y0TXgGkEmWLgCjG9D3yq4GweHzGLQ7cnbNVUqiG/ndXeFLJG1rQy6a+Ky0XfJDdcs8yCvbbsV+qqg==
     rewardWeightBps: 30000
+  - name: Circle-Internet-Group-Inc
+    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELf6KRoo41YXkd8LE9AQgMwU6A/ZoQW+piJ62hxUyQu8C4X0PPqgYHI08t+d4SECv1lNYJtn0f2fb7hW497lxbg==
+    rewardWeightBps: 0

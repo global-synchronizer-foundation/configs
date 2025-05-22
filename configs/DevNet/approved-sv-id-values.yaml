@@ -76,3 +76,6 @@ approvedSvIdentities:
   - name: Obsidian-Systems
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmkUsoT4zpKihM2ME6d0GLlJotoW+hUFLn4pd7NxNySxpdTTrNy84ekOFcEYE44fK8rv0ArCNQGmaaHGBjD52fg==
     rewardWeightBps: 0
+  - name: Circle-Internet-Group-Inc
+    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1bdlnyD5UGivHcv1QSUmdtpzBi9XQEFI+LXU0aNPSWRKVR3gFdkeaB5VzHno2BHk5ZJGEoRuAqp1GqP0c1Xhwg==
+    rewardWeightBps: 0

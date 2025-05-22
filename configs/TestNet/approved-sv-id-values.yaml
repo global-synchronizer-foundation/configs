@@ -67,3 +67,6 @@ approvedSvIdentities:
   - name: Liberty-City-Ventures-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzPiiGTxeSKO+HBOekWSXKpAziP2hlRvwdYmbvmL8BwdCBsRZGc5UELlo9rS3DOfhg6/W+oundvzqzsNQKVBb4w==
     rewardWeightBps: 100000
+  - name: Circle-Internet-Group-Inc
+    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0c9kA+bJCsd1ZcQvaFst2WOffIbIdPa2C5q/t0b6vojGfGZR6ETZ42F1x7Ly02yM1N+4gsuS2gmqAF4Zt9b5/w==
+    rewardWeightBps: 0
