@@ -30,13 +30,9 @@ approvedSvIdentities:
         weight: "10000"
       - beneficiary: "copper-testnetValidator-1::1220030d943f303ae8703182bc73014a62107f46086098ae89353cd969f35a1ecb31" # Copper Clearloop CIP-0039
         weight: "10000"
-      - beneficiary: "Elliptic-validator-1::1220ad19af5ec594d6333478679135cfcfed93dce4844f822b8d56a9a7455d1064f3" # Elliptic CIP-0044
-        weight: "5000"
       - beneficiary: "ObsidianSystems-validator-1::1220932286cab2eefd313d308dfe049905cd2968becdefd78c49176991b87f2d1017" # Obsidian Systems CIP-0037
         weight: "10000"
-      - beneficiary: "CoinMetrics-validator-1::12204eb3808b8a646470cbaedbe95811993b4d96df2bd9cd32585802d0365f9c15ed" # Coin Metrics CIP-0046
-        weight: "10000"
-      - beneficiary: "circle-validator-1::1220dd2293b563c59be746073ad5f5c47b87d2537accc44b407ea07da4548ea15b6e" # Circle CIP-0041
+      - beneficiary: "circle-validator-1::1220b37c0a6fc08a8364fc3cedcd211044cc73d4eb68f0e5cdab12004fb7812ee453" # Circle CIP-0041
         weight: "100000"
       - beneficiary: "Quantstamp-validator-1::12207456a11de825ca318b9a6213fda79ad40ede4e9702e06de6072f84def3d7568b" # Quantstamp CIP-0057
         weight: "10000"
