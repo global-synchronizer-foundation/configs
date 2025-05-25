@@ -1,7 +1,7 @@
 approvedSvIdentities:
   - name: SV-Nodeops-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExZqACOeB0Es3PQp+BgBXioU67aO3XTxuM/tDaF05SPYLQlS5zhE+om9CMqAz8BLuNEGqPp/E17DNiaGkLVLfPA==
-    rewardWeightBps: 100000
+    rewardWeightBps: 102500
   - name: Cumberland-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESLPPYUXcHS7yOEmDHHA4+/UueQM9KU26GvMXqYVJh/okOWFzdiXWtSDZfL1dYUJ9q9KrkNztVlANExBTjY70Vw==
     rewardWeightBps: 130000
@@ -44,7 +44,7 @@ approvedSvIdentities:
         weight: "10000"
       - beneficiary: "Elliptic-validator-1::1220947a4507021b651a021e880e5d29fd97df225d7ff5dbee2dae2d06aed8565d0a" # Elliptic CIP-0044
         weight: "5000"
-      - beneficiary: "ObsidianSystems-validator-1::1220624505b61dca190227947a52cab4953cc99da4818584a0dffa480164bc23c309" # Obsidian Systems CIP-0037
+      - beneficiary: "ObsidianSystems-validator-1::1220897ffe644aacde52caf234d8602f9f8eb17cb6a77e0508678ca43493374bb49b" # Obsidian Systems CIP-0037
         weight: "10000"
       - beneficiary: "CoinMetrics-validator-1::1220f00bfb374a0c2ff71034053ef56fd69d8899ce584e08f51fad8344f4f1c43054" # Coin Metrics CIP-0046
         weight: "10000"
@@ -65,7 +65,7 @@ approvedSvIdentities:
     rewardWeightBps: 100000
   - name: C7-Technology-Services-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVAJEEaXnB+CU+rV5QS4I0eNH14YBXHmrl2ubLzOu7vhez3orP1MDmGSD3gLiP9oxi1XiI+D/JcNohAxlm/DDpw==
-    rewardWeightBps: 100750
+    rewardWeightBps: 105750
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVSqn1J3YWij1KBWVNKKOQ8aEPeUc9SFe418mneRdV/PJOX4awAePDrG7A09SYkqP8dyg8ESMw5ltV0dJt5eqlQ==
     rewardWeightBps: 30000
@@ -75,3 +75,6 @@ approvedSvIdentities:
   - name: Liberty-City-Ventures-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVpFXAPDcz1WHvXrG35YzF9Fgn5P29oVfFkR+QN7DO4v3b/QzTnH+BsBb01gd3KhkuRg+sLj4vLQo/ZOSSyGO0g==
     rewardWeightBps: 100000
+  - name: Obsidian-Systems
+    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmkUsoT4zpKihM2ME6d0GLlJotoW+hUFLn4pd7NxNySxpdTTrNy84ekOFcEYE44fK8rv0ArCNQGmaaHGBjD52fg==
+    rewardWeightBps: 0
