@@ -32,10 +32,8 @@ approvedSvIdentities:
         weight: "10000"
       - beneficiary: "ObsidianSystems-validator-1::1220932286cab2eefd313d308dfe049905cd2968becdefd78c49176991b87f2d1017" # Obsidian Systems CIP-0037
         weight: "10000"
-      - beneficiary: "circle-validator-1::1220b37c0a6fc08a8364fc3cedcd211044cc73d4eb68f0e5cdab12004fb7812ee453" # Circle CIP-0041
+      - beneficiary: "circle-validator-1::1220dd2293b563c59be746073ad5f5c47b87d2537accc44b407ea07da4548ea15b6e" # Circle CIP-0041
         weight: "100000"
-      - beneficiary: "Quantstamp-validator-1::12207456a11de825ca318b9a6213fda79ad40ede4e9702e06de6072f84def3d7568b" # Quantstamp CIP-0057
-        weight: "10000"
       - beneficiary: "bitwave-testnet-1::122014e98a78f481d05fd78f7574b86d620157a5df8972f296cec88d6e1f84449aa7" # Bitwave CIP-0055
         weight: "10000"
   - name: MPC-Holding-Inc
