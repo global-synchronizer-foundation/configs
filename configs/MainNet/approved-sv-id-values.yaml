@@ -70,4 +70,4 @@ approvedSvIdentities:
     rewardWeightBps: 100000
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGe25jhw59y0TXgGkEmWLgCjG9D3yq4GweHzGLQ7cnbNVUqiG/ndXeFLJG1rQy6a+Ky0XfJDdcs8yCvbbsV+qqg==
-    rewardWeightBps: 30000
+    rewardWeightBps: 30500

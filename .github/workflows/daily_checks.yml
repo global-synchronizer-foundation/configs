@@ -26,6 +26,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check diff for reward weights
+        id: diff-reward-weights
+        if: success() || failure()  # Run this step even if one of the previous steps failed
         run: |
           result=$(scripts/diff-reward-weights.sh) && exit_code=$? || exit_code=$?
           echo "$result"
@@ -38,12 +40,44 @@ jobs:
 
           exit "$exit_code"
 
-      - name: Post text to a Slack channel
-        if: failure()
+      - name: Post reward weights check results to a Slack channel
+        #if: failure() && steps.diff-reward-weights.outcome == 'failure'
+        if: false  # Temporarily disabled until a proper process to handle the diff is established
         uses: slackapi/slack-github-action@485a9d42d3a73031f12ec201c457e2162c45d02d  # v2.0.0
         with:
           method: chat.postMessage
           token: ${{ secrets.SLACK_BOT_TOKEN }}
           payload: |
             channel: ${{ secrets.SLACK_CHANNEL_ID_SUPERVALIDATOR_OPERATIONS }}
-            text: ":warning: One more more configuration checks failed. Please check the <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|logs> for details."
+            markdown_text: ":warning: One more more configuration checks failed. Please check the [logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."
+
+      - name: Get missing voters
+        id: get-missing-voters
+        if: success() || failure()  # Run this step even if one of the previous steps failed
+        run: |
+          result=$(scripts/get-missing-voters.sh 1) && exit_code=$? || exit_code=$?
+          echo "$result"
+
+          {
+            echo '```'
+            echo "$result"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          {
+            echo "slack_message<<EOF"
+            echo ":warning: $result"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+          exit "$exit_code"
+
+      - name: Post missing voters check results to a Slack channel
+        if: failure() && steps.get-missing-voters.outcome == 'failure'
+        uses: slackapi/slack-github-action@485a9d42d3a73031f12ec201c457e2162c45d02d  # v2.0.0
+        with:
+          method: chat.postMessage
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
+          payload: |
+            channel: ${{ secrets.SLACK_CHANNEL_ID_SUPERVALIDATOR_OPERATIONS }}
+            markdown_text: ${{ toJSON(steps.get-missing-voters.outputs.slack_message) }}
