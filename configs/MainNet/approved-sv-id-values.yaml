@@ -1,7 +1,7 @@
 approvedSvIdentities:
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWLDU/xZzCtl6prd15Dyi+2/zMtSbHpQh8wJ/R3J9YKDVNpkJVo+qBkmYYSdlAifLz1aymUKqZlWDBvtQCJIaA==
-    rewardWeightBps: 375000
+    rewardWeightBps: 385000
     extraBeneficiaries:
       - beneficiary: "validator_GSF-1::12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79"
         weight: "100000"
@@ -25,12 +25,14 @@ approvedSvIdentities:
         weight: "100000"
       - beneficiary: "Quantstamp-validator-1::1220acba2f1ab44b954a6de966678d7cc069e66a3986e4b5f4af29a6445c208f8fb1" # Quantstamp CIP-0057
         weight: "10000"
+      - beneficiary: "bitwave-finance-1::1220ab03fc0c7f77428d8f568276b64a6e6a04e340c842581a0d4e676ad7e094c1bb" # Bitwave CIP-0055
+        weight: "10000"
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcGfwLnDE3vQuWcHE7CfVABigVK5nPeAjqFf66pIlXpqeoklu4KMnDE4Zse465NcWUgfMnjmmSw53hKRxuR6RFg==
     rewardWeightBps: 159250
   - name: SV-Nodeops-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQfazgfYYYuXXuUmujEUnLYsQfWnb8CEKsddv7Gt0SqG2v9Tx9/LyzteOdPOSXtb5XODumthhfpFh0MLnU8w+eQ==
-    rewardWeightBps: 100000
+    rewardWeightBps: 102500
   - name: Cumberland-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0oiJ1uUtJ5J4uduDUsuluNoIRCkptsQG6xAkS+D2by50QmSdEvW+IyndIKQSnyQIpUF6ezCLMQGfnLtjsPcrkw==
     rewardWeightBps: 130000
@@ -59,7 +61,7 @@ approvedSvIdentities:
     rewardWeightBps: 100000
   - name: C7-Technology-Services-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdRk0Ef3U0VSxdBo3/azkCY2Y7VFV6sM/7O1u93VHbAgJSqIeQK3B2yklxjKvZJDUyz0jNjuSF4Zvc780nv9IHg==
-    rewardWeightBps: 100750
+    rewardWeightBps: 105750
   - name: Proof-Group-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvczD+F72UNwVtsqqfY6iBif7q2BAq3EYu+6Gad6Xjxqv2IFVvr7TUzx5PYbu/eG34Q7sceZKnhzBKfi4b2Eclg==
     rewardWeightBps: 10000
