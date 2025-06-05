@@ -28,7 +28,7 @@ approvedSvIdentities:
     rewardWeightBps: 159250
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+2XaCekgPDPoEzXeo3yYf6Y+3zbIXKMoR2WYl/pa8CMuOloMXHUfdi6viBJcvoLij7ti5PaqLp1PHJ5tWLteVQ==
-    rewardWeightBps: 385000
+    rewardWeightBps: 395000
     extraBeneficiaries:
       - beneficiary: "GSF-validator-1::1220dc05147ec4b91b61ebc970af0e10f1daebd4bf6d8274c2e1a3bf9f7cb7988a81" # GSF-1
         weight: "100000"
@@ -48,6 +48,8 @@ approvedSvIdentities:
         weight: "100000"
       - beneficiary: "bitwave-devnet-1::1220a474e86506c3781db887202f05da95465669222969dfa0d04b69d921d556a034" # Bitwave CIP-0055
         weight: "10000"
+      - beneficiary: "IntellectEU-ghost-1::12202b8920165055eb9377c49c458eb9a4151423592aa95e8a80d31865d110d49ccc" # IntellectEU CIP-0058
+        weight: "10000"
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgWriOYpZeYXC09cPOKm/s1MzZSrJvKZc3Mz4RqYLsA7j/umQfLFKqWWu1TT77JrrGTTp57aXUTcrGg0DvyRq/Q==
     rewardWeightBps: 10000
@@ -62,7 +64,7 @@ approvedSvIdentities:
     rewardWeightBps: 105750
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVSqn1J3YWij1KBWVNKKOQ8aEPeUc9SFe418mneRdV/PJOX4awAePDrG7A09SYkqP8dyg8ESMw5ltV0dJt5eqlQ==
-    rewardWeightBps: 30000
+    rewardWeightBps: 30500
   - name: Proof-Group-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEeSP06KmTXsRJ65JGYwtzKRX9gosW+Gf4IwIquPGT8+XM1ey9La4wdZ+eELNZMPGacQ9fDe2JPFuRJE+fdVsfOQ==
     rewardWeightBps: 10000
@@ -71,4 +73,7 @@ approvedSvIdentities:
     rewardWeightBps: 100000
   - name: Obsidian-Systems
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmkUsoT4zpKihM2ME6d0GLlJotoW+hUFLn4pd7NxNySxpdTTrNy84ekOFcEYE44fK8rv0ArCNQGmaaHGBjD52fg==
+    rewardWeightBps: 0
+  - name: Bitwave-1
+    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaVPLiP6420egNc8e29KjVq/RjhyxWSRUieI2bMvzZPgxlDGd+hvpw/3+pZiEu59xwI1e0d4oHH2xEcN/x/+Amg==
     rewardWeightBps: 0
