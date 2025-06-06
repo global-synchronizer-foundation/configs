@@ -2,7 +2,7 @@
 
 ### Purpose
 
-This process defines how to request the addition of a new IP address to the `allowed-ip-ranges-external.json` file, which is used to whitelist IPs for access to Canton network nodes, tools, or monitoring interfaces.
+This process defines how to request the addition of a new IP address to the `<network>/allowed-ip-ranges.json` in file  [configs-private](https://github.com/global-synchronizer-foundation/configs-private), which is used to whitelist IPs for access to Canton network nodes, tools, or monitoring interfaces.
 
 ### Status
 
@@ -14,7 +14,7 @@ This is a proposed process based on working patterns used for similar PRs (weigh
 
 When requesting a new whitelisted IP, prepare the following:
 
-- Exact IP address or IP block to be whitelisted
+- Exact IP address to be whitelisted
 - Purpose of the IP (e.g. node operation, Validator operation, monitoring, Scan UI access)
 - Which network(s) this applies to (DevNet, TestNet, MainNet)
 - Sponsoring SV name (if applicable)
