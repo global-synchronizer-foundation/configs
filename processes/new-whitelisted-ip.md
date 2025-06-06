@@ -19,20 +19,17 @@ When requesting a new whitelisted IP, prepare the following:
 - Which network(s) this applies to (DevNet, TestNet, MainNet)
 - Sponsoring SV name (if applicable)
 
-#### 2. Submit the request
+#### 2. Submit the request  
 
-- Submit a pull request (PR) to the GitHub repo:
-  - Repo: [global-synchronizer-foundation/configs](https://github.com/global-synchronizer-foundation/configs)
-  - File: `allowed-ip-ranges-external.json`
-
-- Announce the PR in the `#global-synchronizer-ops` Slack channel to request review.
+- Submit a pull request (PR) to the GitHub repo: [global-synchronizer-foundation/configs-private](https://github.com/global-synchronizer-foundation/configs-private)  
+- If whitelisteing on TestNet or MainNet, The PR description must contain:  
+  - The justification: either a link to an announcement that this validator has been approved by the tokenomics committee, or at the discretion of which operator this is added (out of the list of operators approved by the tokenomics committee to onboard validators at their discretion)  
+  - The name of the sponsor SV, if the validator node is operated by an operator 
 
 #### 3. Review and merge
 
-- It is recommended that two reviewers approve PRs affecting IP whitelisting.
-- After approval, a maintainer merges the PR.
+- A maintainer from a different organization than the submitted should approve and merge the PR (if the submitter is a maintainer themselves, they can merge following an approval from another maintainer from a different organization)  
 
 #### 4. Notes
 
-- This  process reflects practices used for other network configurations (weights, Scan UI VPN access) but has not yet been formally voted and adopted.
 - SV operators are encouraged to document their current practices during review of this draft.
