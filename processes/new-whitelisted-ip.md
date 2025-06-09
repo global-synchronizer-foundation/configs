@@ -12,12 +12,11 @@ This is a proposed process based on working patterns used for similar PRs (weigh
 
 #### 1. Prepare your IP request
 
-When requesting a new whitelisted IP, prepare the following:
-
-- Exact IP address to be whitelisted
-- Purpose of the IP (e.g. node operation, Validator operation, monitoring, Scan UI access)
-- Which network(s) this applies to (DevNet, TestNet, MainNet)
-- Sponsoring SV name (if applicable)
+When requesting a new whitelisted IP, prepare a PR in the [configs-private repo](https://github.com/global-synchronizer-foundation/configs-private), with the following:
+- In the file corresponding to the network to which you wish to add the IP (DevNet/TestNet/MainNet), update `configs/<network>/allowed-ip-ranges.json`
+- Identify the section to which the IP should be added: svs, validators, vpns or read-only clients
+- Entries in validators or read-only clients must contain both the name of the validator (or organization requesting the read-only access) as well as the name of the operator running the node on their behalf, or their sponsor SV if they operator their own node
+- Please make sure the entries are sorted alphabetically (CI will also fail your PR if they are not)
 
 #### 2. Submit the request  
 
