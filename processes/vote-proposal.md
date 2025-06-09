@@ -25,19 +25,20 @@ This is a draft process based on current working practices and discussions in pr
 
 #### 2. Announce your intent to vote
 
-- Announce intent to create a vote in `#global-synchronizer-ops`.
+- Announce intent to create a vote via an email to 
+supervalidator-announce@lists.sync.global
 - Allow time (usually 1-2 days) for discussion and any objections.
 
 #### 3. Initiate on-ledger vote
 
 - Use the voting tools to create the on-ledger vote.
 - Include a clear and consistent vote description.
-- Announce in `#global-synchronizer-ops` when the vote goes live.
+- [Optional] Announce in `#supervalidator-ops` when the vote goes live.
 
 #### 4. Coordinate follow-up actions
 
 - For CIPs or operational votes requiring a GitHub PR (weights, IPs, etc), prepare corresponding PR after vote passes.
-- Communicate status of post-vote actions in `#global-synchronizer-ops`.
+- Communicate status of post-vote actions in `#supervalidator-ops `.
 
 ### Notes
 
