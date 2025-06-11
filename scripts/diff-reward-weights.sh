@@ -28,6 +28,12 @@ usage() {
   echo "  -q  Quiet mode. Don't show the diff."
 }
 
+jq_functions='
+  def select_keys_from_map($keys_to_select):
+    del(.[(keys - $keys_to_select)[]])
+  ;
+'
+
 config_diff() {
   local config_file=$1
   local dso_url=$2
@@ -64,13 +70,22 @@ config_diff() {
     modified_seconds_ago=$(( $(date +%s) - last_modified_seconds ))
   fi
 
-  local weights_from_file; weights_from_file=$(
+  local weights_from_file_all; weights_from_file_all=$(
     yq -eo json . "$configs_dir/$config_file" | jq -eS '[.approvedSvIdentities[] | {(.name): .rewardWeightBps}] | add'
   ) || { echo "ERROR: Unable to read and parse weights from $config_file" >&2; return 1; }
 
   local weights_from_url; weights_from_url=$(
     echo "$dso_data" | jq -eS '[.dso_rules.contract.payload.svs[][1] | {(.name): .svRewardWeight | tonumber}] | add'
   ) || { echo "ERROR: Unable to parse weights from $dso_url" >&2; return 1; }
+
+  local svs_from_url; svs_from_url=$(
+    echo "$dso_data" | jq -e '[.dso_rules.contract.payload.svs[][1].name]'
+  )
+
+  weights_from_file=$(
+    echo "$weights_from_file_all" |
+      jq -eS --argjson svs_from_url "$svs_from_url" "$jq_functions"'select_keys_from_map($svs_from_url)'
+  )
 
   local diff_options=()
   [[ $OUTPUT_IS_TERMINAL == true ]] && diff_options+=("--color=always")

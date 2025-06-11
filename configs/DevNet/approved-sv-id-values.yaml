@@ -4,10 +4,10 @@ approvedSvIdentities:
     rewardWeightBps: 102500
   - name: Cumberland-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESLPPYUXcHS7yOEmDHHA4+/UueQM9KU26GvMXqYVJh/okOWFzdiXWtSDZfL1dYUJ9q9KrkNztVlANExBTjY70Vw==
-    rewardWeightBps: 130000
+    rewardWeightBps: 136125
   - name: Cumberland-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE9/PUF/FFmdhbJNtxt+fR67LEW9vM/NluHSKTecvaqx7EYymDRsJf0GShphXwJAgrFzEOQ0Vsmbu6dmO6N1x8/g==
-    rewardWeightBps: 130000
+    rewardWeightBps: 136125
   - name: Digital-Asset-Eng-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsRRntNkOLF2Wh7JxV0rBQPgT+SendIjFLXKUXCrLbVHqomkypHQiZP8OgFMSlByOnr81fqiUt3G36LUpg/fmgA==
     rewardWeightBps: 140000
