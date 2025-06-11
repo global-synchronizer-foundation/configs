@@ -73,9 +73,6 @@ approvedSvIdentities:
   - name: Liberty-City-Ventures-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVpFXAPDcz1WHvXrG35YzF9Fgn5P29oVfFkR+QN7DO4v3b/QzTnH+BsBb01gd3KhkuRg+sLj4vLQo/ZOSSyGO0g==
     rewardWeightBps: 100000
-  - name: Obsidian-Systems
-    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmkUsoT4zpKihM2ME6d0GLlJotoW+hUFLn4pd7NxNySxpdTTrNy84ekOFcEYE44fK8rv0ArCNQGmaaHGBjD52fg==
-    rewardWeightBps: 0
   - name: Bitwave-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaVPLiP6420egNc8e29KjVq/RjhyxWSRUieI2bMvzZPgxlDGd+hvpw/3+pZiEu59xwI1e0d4oHH2xEcN/x/+Amg==
     rewardWeightBps: 0
