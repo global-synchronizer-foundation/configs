@@ -10,13 +10,13 @@ approvedSvIdentities:
     rewardWeightBps: 159250
   - name: Cumberland-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEE0FEwOWZIsogzxbfkFDvg6iVR2P8zmzCwemylXF9/hxynlJOPo4vg3W9AS7y50X5qqj9yrWvVeT9iC1dDMIE0g==
-    rewardWeightBps: 130000
+    rewardWeightBps: 136125
   - name: Cumberland-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdbZaNrBDaGGpZZ3URiMHoSL2N0WSIt/aVlkQYATwoc7htI9FkysxE8dN1yimjSKYz6VcDCr8NqRfd5ENMVEscg==
-    rewardWeightBps: 130000
+    rewardWeightBps: 136125
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETri1wBeoV3AYnEF/slvViz9GO2g2lcxUQ3SadBTA70Kn87KzAZ/25n6+hhuRebuuGlm70KFKGJGr8RFd1YjB1Q==
-    rewardWeightBps: 395000
+    rewardWeightBps: 420000
     extraBeneficiaries:
       - beneficiary: "GSF-validator-1::1220cff733e3a29f50b3104f573d51461e85cd685b28dafa684c40813975e6e2ce3d"
         weight: "100000"
@@ -38,6 +38,8 @@ approvedSvIdentities:
         weight: "10000"
       - beneficiary: "IntellectEU-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # IntellectEU CIP-0058
         weight: "10000"
+      - beneficiary: "AngelHack-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # AngelHack CIP-0053
+        weight: "25000"
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOxCYWSBB4hDz7O1XxJ3xswKXxJcQqsgyzBTbWjkwa+ILYXy8T2vtVMoZ+tC/Ykdp3MyFwcMIP1kzcDKCSp0qow==
     rewardWeightBps: 10000
