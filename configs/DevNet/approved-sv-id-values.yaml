@@ -44,7 +44,7 @@ approvedSvIdentities:
         weight: "10000"
       - beneficiary: "ObsidianSystems-validator-1::1220897ffe644aacde52caf234d8602f9f8eb17cb6a77e0508678ca43493374bb49b" # Obsidian Systems CIP-0037
         weight: "10000"
-      - beneficiary: "circle-validator-1::12206aec43c8c6ceb92a6503a0839788f1f236dea30449d11c0b902b5933745711b3" # Circle CIP-0041
+      - beneficiary: "circle-validator-1::1220265caf3abff95a901fc7574dcd39874d4d84d15c2c4faa66561caa73a78379fa" # Circle CIP-0041
         weight: "100000"
       - beneficiary: "bitwave-devnet-1::1220a474e86506c3781db887202f05da95465669222969dfa0d04b69d921d556a034" # Bitwave CIP-0055
         weight: "10000"
@@ -73,9 +73,6 @@ approvedSvIdentities:
   - name: Liberty-City-Ventures-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVpFXAPDcz1WHvXrG35YzF9Fgn5P29oVfFkR+QN7DO4v3b/QzTnH+BsBb01gd3KhkuRg+sLj4vLQo/ZOSSyGO0g==
     rewardWeightBps: 100000
-  - name: Obsidian-Systems
-    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmkUsoT4zpKihM2ME6d0GLlJotoW+hUFLn4pd7NxNySxpdTTrNy84ekOFcEYE44fK8rv0ArCNQGmaaHGBjD52fg==
-    rewardWeightBps: 0
   - name: Bitwave-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaVPLiP6420egNc8e29KjVq/RjhyxWSRUieI2bMvzZPgxlDGd+hvpw/3+pZiEu59xwI1e0d4oHH2xEcN/x/+Amg==
     rewardWeightBps: 0
