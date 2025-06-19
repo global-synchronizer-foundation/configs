@@ -22,7 +22,7 @@ approvedSvIdentities:
         weight: "100000"
       - beneficiary: "Broadridge-validator-1::1220c89a73e7b47f16dfb48a521eeedfe2a8620ea1b19b815ab427388d9f5427faa5"
         weight: "100000"
-      - beneficiary: "thetie-validator-0::12200c4ef180d416dec62a4bf4da093707e903f9b16830a4182f47ac7b15d5c2d797" # The Tie
+      - beneficiary: "thetie-validator-0::1220e81793d395d56922d4e31e248480a7be6fe1b96082107bf56f4ce0b11b3f0e7d" # The Tie
         weight: "10000"
       - beneficiary: "copper-testnetValidator-1::1220030d943f303ae8703182bc73014a62107f46086098ae89353cd969f35a1ecb31" # Copper
         weight: "10000"
@@ -32,9 +32,9 @@ approvedSvIdentities:
         weight: "10000"
       - beneficiary: "ObsidianSystems-validator-1::1220932286cab2eefd313d308dfe049905cd2968becdefd78c49176991b87f2d1017" # Obsidian Systems CIP-0037
         weight: "10000"
-      - beneficiary: "circle-validator-1::1220dd2293b563c59be746073ad5f5c47b87d2537accc44b407ea07da4548ea15b6e" # Circle CIP-0041
+      - beneficiary: "circle-validator-1::1220b37c0a6fc08a8364fc3cedcd211044cc73d4eb68f0e5cdab12004fb7812ee453" # Circle CIP-0041
         weight: "100000"
-      - beneficiary: "bitwave-testnet-1::122014e98a78f481d05fd78f7574b86d620157a5df8972f296cec88d6e1f84449aa7" # Bitwave CIP-0055
+      - beneficiary: "bitwave-testnet-2::1220f85d0de84a8c2de9052f45c15b3729081b09e324686ee32114a2bf7e9727c388" # Bitwave CIP-0055
         weight: "10000"
       - beneficiary: "IntellectEU-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # IntellectEU CIP-0058
         weight: "10000"
