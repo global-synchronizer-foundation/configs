@@ -1,0 +1,34 @@
+## How to Ask for a New Whitelisted IP Process
+
+### Purpose
+
+This process defines how to request the addition of a new IP address to the `<network>/allowed-ip-ranges.json` in file  [configs-private](https://github.com/global-synchronizer-foundation/configs-private), which is used to whitelist IPs for access to Canton network nodes, tools, or monitoring interfaces.
+
+### Status
+
+This is a proposed process based on working patterns used for similar PRs (weights, Scan UI access), as no formal process has been documented yet.
+
+### Process (proposed based on current practice)
+
+#### 1. Prepare your IP request
+
+When requesting a new whitelisted IP, prepare a PR in the [configs-private repo](https://github.com/global-synchronizer-foundation/configs-private), with the following:
+- In the file corresponding to the network to which you wish to add the IP (DevNet/TestNet/MainNet), update `configs/<network>/allowed-ip-ranges.json`
+- Identify the section to which the IP should be added: svs, validators, vpns or read-only clients
+- Entries in validators or read-only clients must contain both the name of the validator (or organization requesting the read-only access) as well as the name of the operator running the node on their behalf, or their sponsor SV if they operator their own node
+- Please make sure the entries are sorted alphabetically (CI will also fail your PR if they are not)
+
+#### 2. Submit the request  
+
+- Submit a pull request (PR) to the GitHub repo: [global-synchronizer-foundation/configs-private](https://github.com/global-synchronizer-foundation/configs-private)  
+- If whitelisteing on TestNet or MainNet, The PR description must contain:  
+  - The justification: either a link to an announcement that this validator has been approved by the tokenomics committee, or at the discretion of which operator this is added (out of the list of operators approved by the tokenomics committee to onboard validators at their discretion)  
+  - The name of the sponsor SV, if the validator node is operated by an operator 
+
+#### 3. Review and merge
+
+- A maintainer from a different organization than the submitted should approve and merge the PR (if the submitter is a maintainer themselves, they can merge following an approval from another maintainer from a different organization)  
+
+#### 4. Notes
+
+- SV operators are encouraged to document their current practices during review of this draft.
