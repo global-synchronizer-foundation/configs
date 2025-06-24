@@ -34,7 +34,6 @@ This is a draft process based on current practice and the final operator vote ad
   - Announce in `#global-synchronizer-ops` that the vote has passed and the corresponding PR is ready.
   - **Ask a maintainer to merge the PR** for that network.
 
-- **No, we agreed on separate PRs. So if some votes did not pass, the corresponding PR should not be merged.**
 
 #### 4. Post-merge checks
 
