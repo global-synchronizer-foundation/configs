@@ -19,6 +19,7 @@ When preparing the PR, consider the following:
   - Identify the section where the IP should be added: `svs`, `validators`, `vpns` or `read-only clients`
   - Entries under `validators` or `read-only clients` must contain both the name of the validator (or organization requesting read-only access) and the name of the operator running the node on their behalf. If they operate their own node, include the sponsor SV instead. Separate the two with " / ".
   - Ensure that all entries and IP addresses are sorted alphabetically. The CI will fail your PR if they are not.
+  - As a general rule, only one IP should be whitelisted per validator. Make sure that validators nodes use a single egress gateway so that they have a single egress IP. If more than one IP is required per validator, e.g. to temporarily run a second node while migrating between nodes, please explain that in the PR description.
 
 If adding IP for a validator on **TestNet** or **MainNet**, the PR description must contain:
   - **Justification**: Provide a link to an announcement confirming that the validator has been approved by the tokenomics committee or a statement naming the operator (from the list of operators approved by the tokenomics committee to onboard validators at their discretion) under whose discretion the validator is added.
