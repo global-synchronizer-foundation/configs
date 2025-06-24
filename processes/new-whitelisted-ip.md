@@ -12,7 +12,7 @@ This is a proposed process based on working patterns as no formal process has be
 
 #### 1. Prepare the Change and Submit a Pull Request
 
-Submit a pull request (PR) to the GitHub repository: [global-synchronizer-foundation/configs-private](https://github.com/global-synchronizer-foundation/configs-private)
+Submit a pull request (PR) to the GitHub repository: [global-synchronizer-foundation/configs-private](https://github.com/global-synchronizer-foundation/configs-private). If you are not a maintainer, create it via a GitHub fork.
 
 When preparing the PR, consider the following:
   - Make changes in the file `configs/<network>/allowed-ip-ranges.json` where `<network>` is the network you wish to add the IP for (DevNet, TestNet or MainNet)
