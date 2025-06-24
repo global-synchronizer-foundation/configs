@@ -6,7 +6,7 @@ This process defines how to request the addition of a new IP address to the `<ne
 
 ### Status
 
-This is a proposed process based on working patterns used for similar PRs (weights, Scan UI access), as no formal process has been documented yet.
+This is a proposed process based on working patterns as no formal process has been documented yet.
 
 ### Process
 
