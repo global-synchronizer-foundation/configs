@@ -14,19 +14,18 @@ This is a draft process based on current practice and the final operator vote ad
 
 - Prepare **one pull request per network**:
   - Repo: [global-synchronizer-foundation/configs](https://github.com/global-synchronizer-foundation/configs)
-  - File: `approved-sv-id-values.yaml` in the appropriate branch or folder per network.
+  - File: `approved-sv-id-values.yaml` in the appropriate folder per network.
 
 - Each PR must contain only the weight changes for that specific network.
 - If no weight change is proposed for a network, no PR is needed for that network.
 
 #### 2. Submit vote request
 
-- Submit a vote request that includes:
+- Submit a vote request in each network that includes:
   - A link to each prepared PR
-  - A clear description of the proposed changes and which networks they apply to
+  - A clear description of the proposed changes, and the reasoning for them
   - The intended effective date
 
-- Only a **single vote request** is needed, even if weights are changing on multiple networks.
 
 #### 3. After vote passes and becomes effective
 
