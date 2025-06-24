@@ -46,5 +46,5 @@ This is a draft process based on current working practices and discussions in pr
 
 - Only one email announcement is required per vote. It should be sent to `supervalidator-announce@lists.sync.global` when the vote goes live.
 - Effective-at-threshold votes should only be used in emergencies.
-- Standard proposal expiration is 5 business days, with effectivity at least 1 day after expiration.
+- Standard proposal expiration is 7 days, with effectivity at least 1 day after expiration.
 - GSF and SV operators should continue to document and improve best practices for different vote types.
