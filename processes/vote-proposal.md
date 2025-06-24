@@ -27,7 +27,6 @@ This is a draft process based on current working practices and discussions in pr
 
 - Announce intent to create a vote via an email to 
 supervalidator-announce@lists.sync.global
-- Allow time (usually 1-2 days) for discussion and any objections.
 
 #### 3. Initiate on-ledger vote
 
