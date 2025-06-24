@@ -14,33 +14,37 @@ This is a draft process based on current working practices and discussions in pr
 
 - For new CIPs:
   - Draft a CIP per CIP guidelines.
-  - Submit as PR to [CIP repo](https://github.com/global-synchronizer-foundation/cips).
+  - Submit it as a pull request (PR) to the [CIP repo](https://github.com/global-synchronizer-foundation/cips).
 
-- For operational votes not requiring a CIP (e.g. weights, featured app markers):
-  - Prepare a clear proposal text in Slack or Google Docs, including:
-    - Exact action to be taken
+- For operational votes not requiring a CIP (e.g. weight updates, featured app markers):
+  - Prepare a clear proposal text (Slack or Google Doc is fine), including:
+    - The exact action to be taken
     - Networks impacted (DevNet, TestNet, MainNet)
-    - Proposed timing / effectivity
-    - Link to supporting materials (if any)
+    - Proposed timing and effectivity
+    - Links to any supporting materials or references
 
-#### 2. Announce your intent to vote
+#### 2. Initiate on-ledger vote
 
-- Announce intent to create a vote via an email to 
-supervalidator-announce@lists.sync.global
+- Use the approved voting tools to create the on-ledger vote.
+- Include a clear and consistent vote description matching the proposal.
+- Immediately upon opening the vote, send a notification email to:
+  - `supervalidator-announce@lists.sync.global`
 
-#### 3. Initiate on-ledger vote
+  This email must include:
+  - A summary of the proposal
+  - The link to the on-ledger vote
+  - Any relevant context or supporting links
+- [Optional] Announce the vote in `#supervalidator-ops` on Slack.
 
-- Use the voting tools to create the on-ledger vote.
-- Include a clear and consistent vote description.
-- [Optional] Announce in `#supervalidator-ops` when the vote goes live.
+#### 3. Coordinate follow-up actions
 
-#### 4. Coordinate follow-up actions
-
-- For CIPs or operational votes requiring a GitHub PR (weights, IPs, etc), prepare corresponding PR after vote passes.
-- Communicate status of post-vote actions in `#supervalidator-ops `.
+- For CIPs or operational votes requiring a GitHub PR (e.g., weights, IPs):
+  - Prepare the corresponding PR(s) once the vote passes.
+  - Announce PR status and request review/merge in `#supervalidator-ops`.
 
 ### Notes
 
+- Only one email announcement is required per vote. It should be sent to `supervalidator-announce@lists.sync.global` when the vote goes live.
 - Effective-at-threshold votes should only be used in emergencies.
 - Standard proposal expiration is 5 business days, with effectivity at least 1 day after expiration.
-- GSF and SV operators should continue documenting best practices around vote types.
+- GSF and SV operators should continue to document and improve best practices for different vote types.
