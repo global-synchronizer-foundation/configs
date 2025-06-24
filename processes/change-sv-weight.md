@@ -2,7 +2,7 @@
 
 ### Purpose
 
-This process defines how to propose and implement changes to the minting weight of a Super Validator (SV) on the Global Synchronizer.  
+This process defines how to propose and implement changes to the minting weight of a Super Validator (SV) on the Global Synchronizer.
 
 ### Status
 
@@ -10,37 +10,39 @@ This is a draft process based on current practice and the final operator vote ad
 
 ### Process
 
-#### 1. Propose a weight change via on-ledger vote
-
-- Initiate on-ledger vote(s) for the intended weight changes on each network (DevNet, TestNet, MainNet as needed).
-- Wait for the vote results to pass on-chain for each network individually.
-
-#### 2. Prepare GitHub PRs
+#### 1. Prepare GitHub PRs
 
 - Prepare **one pull request per network**:
   - Repo: [global-synchronizer-foundation/configs](https://github.com/global-synchronizer-foundation/configs)
-  - File: `approved-sv-id-values.yaml` in the appropriate network branch or directory (per current repo structure).
+  - File: `approved-sv-id-values.yaml` in the appropriate branch or folder per network.
+
+- Each PR must contain only the weight changes for that specific network.
+- If no weight change is proposed for a network, no PR is needed for that network.
+
+#### 2. Submit vote request
+
+- Submit a vote request that includes:
+  - A link to each prepared PR
+  - A clear description of the proposed changes and which networks they apply to
+  - The intended effective date
+
+- Only a **single vote request** is needed, even if weights are changing on multiple networks.
+
+#### 3. After vote passes and becomes effective
+
+- For each network where the vote passed:
+  - Announce in `#global-synchronizer-ops` that the vote has passed and the corresponding PR is ready.
+  - **Ask a maintainer to merge the PR** for that network.
 
 - **No, we agreed on separate PRs. So if some votes did not pass, the corresponding PR should not be merged.**
 
-#### 3. Submit vote request
+#### 4. Post-merge checks
 
-- Submit a vote request for the proposed weight changes, clearly referencing the PR(s) in your vote request description.
-
-#### 4. Post-vote: Merge PRs
-
-- Once vote requests pass:
-  - Announce in `#global-synchronizer-ops` that the vote passed and the corresponding PR(s) are ready to merge.
-  - **Ask a maintainer to merge the corresponding PRs**.
-  - Only PRs for networks where the vote passed should be merged.
-
-#### 5. Post-merge checks
-
-- Automated checks will compare on-ledger weights with GitHub after votes have passed.
-- If a mismatch is detected after the vote:
-  - The GitHub configuration **must be updated** to match the on-ledger state, OR
-  - A new vote request must be initiated to correct the on-ledger state.
-- There is no "voting down" after the vote has passed — the mismatch must be resolved.
+- Automated tools will compare GitHub configuration with the on-ledger state after vote execution.
+- If a mismatch is detected:
+  - The GitHub config **must be updated** to match the ledger, OR
+  - A new vote request must be initiated to correct the ledger.
+- There is no "voting down" after a vote passes — discrepancies must be resolved through correction.
 
 ### Notes
 
