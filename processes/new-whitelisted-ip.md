@@ -8,27 +8,27 @@ This process defines how to request the addition of a new IP address to the `<ne
 
 This is a proposed process based on working patterns used for similar PRs (weights, Scan UI access), as no formal process has been documented yet.
 
-### Process (proposed based on current practice)
+### Process
 
-#### 1. Prepare your IP request
+#### 1. Prepare the Change and Submit a Pull Request
 
-When requesting a new whitelisted IP, prepare a PR in the [configs-private repo](https://github.com/global-synchronizer-foundation/configs-private), with the following:
-- In the file corresponding to the network to which you wish to add the IP (DevNet/TestNet/MainNet), update `configs/<network>/allowed-ip-ranges.json`
-- Identify the section to which the IP should be added: svs, validators, vpns or read-only clients
-- Entries in validators or read-only clients must contain both the name of the validator (or organization requesting the read-only access) as well as the name of the operator running the node on their behalf, or their sponsor SV if they operator their own node
-- Please make sure the entries are sorted alphabetically (CI will also fail your PR if they are not)
+Submit a pull request (PR) to the GitHub repository: [global-synchronizer-foundation/configs-private](https://github.com/global-synchronizer-foundation/configs-private)
 
-#### 2. Submit the request  
+When preparing the PR, consider the following:
+  - Make changes in the file `configs/<network>/allowed-ip-ranges.json` where `<network>` is the network you wish to add the IP for (DevNet, TestNet or MainNet)
+  - Identify the section where the IP should be added: `svs`, `validators`, `vpns` or `read-only clients`
+  - Entries under `validators` or `read-only clients` must contain both the name of the validator (or organization requesting read-only access) and the name of the operator running the node on their behalf. If they operate their own node, include the sponsor SV instead. Separate the two with " / ".
+  - Ensure that all entries and IP addresses are sorted alphabetically. The CI will fail your PR if they are not.
 
-- Submit a pull request (PR) to the GitHub repo: [global-synchronizer-foundation/configs-private](https://github.com/global-synchronizer-foundation/configs-private)  
-- If whitelisteing on TestNet or MainNet, The PR description must contain:  
-  - The justification: either a link to an announcement that this validator has been approved by the tokenomics committee, or at the discretion of which operator this is added (out of the list of operators approved by the tokenomics committee to onboard validators at their discretion)  
-  - The name of the sponsor SV, if the validator node is operated by an operator 
+If adding IP for a validator on **TestNet** or **MainNet**, the PR description must contain:
+  - **Justification**: Provide a link to an announcement confirming that the validator has been approved by the tokenomics committee or a statement naming the operator (from the list of operators approved by the tokenomics committee to onboard validators at their discretion) under whose discretion the validator is added.
 
-#### 3. Review and merge
+You can use the script [new-whitelist.sh](https://github.com/global-synchronizer-foundation/configs-private/blob/main/scripts/new-whitelist.sh), which automates most of the steps above, including PR creation.
 
-- A maintainer from a different organization than the submitted should approve and merge the PR (if the submitter is a maintainer themselves, they can merge following an approval from another maintainer from a different organization)  
+#### 2. Get the PR reviewed and merged
 
-#### 4. Notes
+- A maintainer from a different organization than the submitted should approve and merge the PR. If the submitter is a maintainer, they can merge the PR after receiving approval from another maintainer from a different organization.
+
+#### 3. Notes
 
 - SV operators are encouraged to document their current practices during review of this draft.
