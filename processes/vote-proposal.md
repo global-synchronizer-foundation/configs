@@ -25,14 +25,14 @@ This is a draft process based on current working practices and discussions in pr
 
 #### 2. Initiate on-ledger vote
 
-- Use the approved voting tools to create the on-ledger vote.
+- Use the SV UI or corresponding SV app API to create the on-ledger vote.
 - Include a clear and consistent vote description matching the proposal.
 - Immediately upon opening the vote, send a notification email to:
   - `supervalidator-announce@lists.sync.global`
 
   This email must include:
   - A summary of the proposal
-  - The link to the on-ledger vote
+  - The contract ID to the on-ledger vote
   - Any relevant context or supporting links
 - [Optional] Announce the vote in `#supervalidator-ops` on Slack.
 
