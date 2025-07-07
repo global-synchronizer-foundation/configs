@@ -54,7 +54,7 @@ For each network, locate the `read-only clients` section in the `config/<(DevNet
 ]
 ```
 
-When the organization runs the node themselves, list the sponsor in the second part after the hyphen (-).
+When the organization runs the node themselves, list the sponsor in the second part after the dash (/).
 
 The key needs to be sorted. You can perform a sort with a one-line script:
 
