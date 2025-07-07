@@ -48,7 +48,7 @@ Similar to the "`How to Ask for a New Whitelisted IP Process`" section above, yo
 For each network, locate the `read-only clients` section in the `config/<(DevNet|Testnet|Mainnet)>/allowed-ip-ranges.json` file and add a new element in this format:
 
 ```
-"<org-name> - <operator-name-or-sponsor-name>" : [
+"<org-name> / <operator-name-or-sponsor-name>" : [
   "ip1/32",
   "ip2/32"
 ]
