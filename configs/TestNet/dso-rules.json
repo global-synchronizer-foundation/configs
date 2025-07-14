@@ -47,6 +47,7 @@
             "maxPubKeyLength": "256"
           }
         },
+        "voteCooldownTime": null,
         "voteRequestTimeout": {
           "microseconds": "604800000000"
         }
