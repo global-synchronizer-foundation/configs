@@ -28,7 +28,7 @@ approvedSvIdentities:
     rewardWeightBps: 159250
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+2XaCekgPDPoEzXeo3yYf6Y+3zbIXKMoR2WYl/pa8CMuOloMXHUfdi6viBJcvoLij7ti5PaqLp1PHJ5tWLteVQ==
-    rewardWeightBps: 495000
+    rewardWeightBps: 505000
     extraBeneficiaries:
       - beneficiary: "GSF-validator-1::1220dc05147ec4b91b61ebc970af0e10f1daebd4bf6d8274c2e1a3bf9f7cb7988a81" # GSF-1
         weight: "100000"
@@ -55,6 +55,8 @@ approvedSvIdentities:
       - beneficiary: "Kaiko-ghost-1::12202b8920165055eb9377c49c458eb9a4151423592aa95e8a80d31865d110d49ccc" # Kaiko CIP-0063
         weight: "65000"
       - beneficiary: "kiln-validator-0::1220c7eddc3b47b5bdc42b7fdca7c8bcf2e9ae6d1944eef200b8f8b438687c8ae881" # Kiln CIP-0036
+        weight: "10000"
+      - beneficiary: "figment-devnet-validator-1::12200a16a17dd793b33b61b503fb291bd21e08d856a6d383b2034d1c2ef47977268a" # Figment CIP-0054
         weight: "10000"
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgWriOYpZeYXC09cPOKm/s1MzZSrJvKZc3Mz4RqYLsA7j/umQfLFKqWWu1TT77JrrGTTp57aXUTcrGg0DvyRq/Q==
