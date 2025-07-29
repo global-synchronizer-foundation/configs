@@ -55,10 +55,17 @@ jobs:
       - name: Make sure total sum of reward weights doesn't change unless explicitly allowed
         run: |
           [[ "${{ github.event_name }}" != "merge_group" ]] && exit 0
+          echo "github_ref"
+          git show '${{ github.sha }}' || true
+
           echo "base_ref"
-          git show '${{ github.event.merge_group.base_ref }}'
+          git show '${{ github.event.merge_group.base_ref }}' || true
+          echo "base_sha"
+          git show '${{ github.event.merge_group.base_sha}}' || true
           echo "head_ref"
-          git show '${{ github.event.merge_group.head_ref}}'
+          git show '${{ github.event.merge_group.head_ref}}' || true
+          echo "head_sha"
+          git show '${{ github.event.merge_group.head_sha}}' || true
           echo '${{ toJSON(github) }}'
           echo
           [[ "${{ github.event_name }}" == "merge_group" ]] && exit 1 || true
