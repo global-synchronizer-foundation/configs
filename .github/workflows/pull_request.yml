@@ -65,4 +65,4 @@ jobs:
           exit "$exit_code"
         env:
           SOURCE_BRANCH: ${{ github.sha }}
-          TARGET_BRANCH: "origin/${{ github.base_ref }}"
+          TARGET_BRANCH: ${{ github.event_name == 'merge_group' && github.event.merge_group.base_ref || format('origin/{0}', github.base_ref) }}
