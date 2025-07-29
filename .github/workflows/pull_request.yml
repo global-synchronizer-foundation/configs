@@ -53,6 +53,9 @@ jobs:
 
       - name: Make sure total sum of reward weights doesn't change unless explicitly allowed
         run: |
+          echo "${{ github.event.merge_group }}"
+          echo
+          exit 1
           result=$(scripts/check-sum-reward-weights-change.sh "$TARGET_BRANCH" "$SOURCE_BRANCH") && exit_code=$? || exit_code=$?
           echo "$result"
 
