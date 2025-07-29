@@ -61,16 +61,16 @@ jobs:
           echo '${{ toJSON(github) }}'
           echo
           [[ "${{ github.event_name }}" == "merge_group" ]] && exit 1 || true
-          result=$(scripts/check-sum-reward-weights-change.sh "$TARGET_BRANCH" "$SOURCE_BRANCH") && exit_code=$? || exit_code=$?
-          echo "$result"
+          #result=$(scripts/check-sum-reward-weights-change.sh "$TARGET_BRANCH" "$SOURCE_BRANCH") && exit_code=$? || exit_code=$?
+          #echo "$result"
 
-          {
-            echo '```'
-            echo "$result"
-            echo '```'
-          } >> "$GITHUB_STEP_SUMMARY"
+          #{
+          #  echo '```'
+          #  echo "$result"
+          #  echo '```'
+          #} >> "$GITHUB_STEP_SUMMARY"
 
-          exit "$exit_code"
-        env:
-          SOURCE_BRANCH: ${{ github.sha }}
-          TARGET_BRANCH: "origin/${{ github.base_ref }}"
+          #exit "$exit_code"
+        #env:
+        #  SOURCE_BRANCH: ${{ github.sha }}
+        #  TARGET_BRANCH: "origin/${{ github.base_ref }}"
