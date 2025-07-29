@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - test
   merge_group:
     types: [checks_requested]
 
@@ -53,6 +54,13 @@ jobs:
 
       - name: Make sure total sum of reward weights doesn't change unless explicitly allowed
         run: |
+          echo "base_ref"
+          git show '${{ github.event.merge_group.base_ref }}'
+          echo "head_ref"
+          git show '${{ github.event.merge_group.head_ref}}'
+          echo '${{ toJSON(github) }}'
+          echo
+          [[ "${{ github.event_name }}" == "merge_group" ]] && exit 1 || true
           result=$(scripts/check-sum-reward-weights-change.sh "$TARGET_BRANCH" "$SOURCE_BRANCH") && exit_code=$? || exit_code=$?
           echo "$result"
 
