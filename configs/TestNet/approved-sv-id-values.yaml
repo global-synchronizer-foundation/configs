@@ -30,7 +30,7 @@ approvedSvIdentities:
         weight: 10000
       - beneficiary: "copper-testnetValidator-1::1220030d943f303ae8703182bc73014a62107f46086098ae89353cd969f35a1ecb31" # Copper Clearloop CIP-0039
         weight: 10000
-      - beneficiary: "ObsidianSystems-validator-1::12200a97a3589a8fd95940922a6103363081ec4e73504e536353563cff8138aec0a0" # Obsidian Systems CIP-0037 # "lastCollectedInRound": 18930
+      - beneficiary: "ObsidianSystems-validator-1::12200a97a3589a8fd95940922a6103363081ec4e73504e536353563cff8138aec0a0" # Obsidian Systems CIP-0037
         weight: 10000
       - beneficiary: "circle-validator-1::1220b37c0a6fc08a8364fc3cedcd211044cc73d4eb68f0e5cdab12004fb7812ee453" # Circle CIP-0041
         weight: 100000
