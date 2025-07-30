@@ -4,41 +4,41 @@ approvedSvIdentities:
     rewardWeightBps: 505000
     extraBeneficiaries:
       - beneficiary: "validator_GSF-1::12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79"
-        weight: "100000"
+        weight: 100000
       - beneficiary: "validator_Broadridge::1220b0008ea5531b9e47d3315a822ca8b923b5bdd568c934557402d7160b8af4815d"
-        weight: "100000"
+        weight: 100000
       - beneficiary: "the_tie_validator::1220d3016091c253f526645cce3a0633837b685da083bac4459dad63e61d5c97b5fa" # The Tie
-        weight: "10000"
+        weight: 10000
       - beneficiary: "copper-mainnet-validator::122038dd7fcbdd68bde47034abfd582cbe38854d94dec10c18a7589706914e2b6e61" # Copper
-        weight: "10000"
+        weight: 10000
       - beneficiary: "validator_DFNS::122055a1a137eacd142f00d72a7bd9c6b83ad00f65d97cb79a343d42c2077ae29ca6" # Dfns
-        weight: "10000"
+        weight: 10000
       - beneficiary: "copper-mainnet-validator::122038dd7fcbdd68bde47034abfd582cbe38854d94dec10c18a7589706914e2b6e61" # Copper Clearloop CIP-0039
-        weight: "10000"
+        weight: 10000
       - beneficiary: "Elliptic-validator-1::12205ddf609265d68ee694480f86331de14766bdac30800d04e491b93aca1a81d629" # Elliptic CIP-0044
-        weight: "5000"
+        weight: 5000
       - beneficiary: "ObsidianSystems-validator-1::1220f8a24f975dc3d070e3111279bc2bf2d713a77c5570cbdd2064acb6a4d8d6feea" # Obsidian Systems CIP-0037
-        weight: "10000"
+        weight: 10000
       - beneficiary: "CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466" # Coin Metrics CIP-0046
-        weight: "10000"
+        weight: 10000
       - beneficiary: "circle-validator-1::12209d457bab21f1ce3d52f979cdf021c2990cb74cf01ef2dcf41bf87a79ddaf3ba8" # Circle CIP-0041
-        weight: "100000"
+        weight: 100000
       - beneficiary: "Quantstamp-validator-1::1220acba2f1ab44b954a6de966678d7cc069e66a3986e4b5f4af29a6445c208f8fb1" # Quantstamp CIP-0057
-        weight: "10000"
+        weight: 10000
       - beneficiary: "bitwave-finance-1::1220ab03fc0c7f77428d8f568276b64a6e6a04e340c842581a0d4e676ad7e094c1bb" # Bitwave CIP-0055
-        weight: "10000"
+        weight: 10000
       - beneficiary: "IntellectEU-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # IntellectEU CIP-0058 # escrow party_id added to the GhostSV-validator-1
-        weight: "10000"
+        weight: 10000
       - beneficiary: "AngelHack-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # AngelHack CIP-0053 # escrow party_id added to the GhostSV-validator-1
-        weight: "15000"
+        weight: 15000
       - beneficiary: "angelhack-mainnet-1::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060" # AngelHack CIP-0053 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: "10000"
+        weight: 10000
       - beneficiary: "Kaiko-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Kaiko CIP-0063 # escrow party_id added to the GhostSV-validator-1
-        weight: "65000"
+        weight: 65000
       - beneficiary: "kiln-validator-1::12209024881cf76bf1c15342e9e3b4bd751d5582947a58b42a6532eef867f83ceea3" # Kiln CIP-0036
-        weight: "10000"
+        weight: 10000
       - beneficiary: "figment-mainnetValidator-1::1220b46e6ce64f99510274b4aaa573b32089e69cfee0f1e918539f19f78e9ea23ba4" # Figment CIP-0054
-        weight: "10000"
+        weight: 10000
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcGfwLnDE3vQuWcHE7CfVABigVK5nPeAjqFf66pIlXpqeoklu4KMnDE4Zse465NcWUgfMnjmmSw53hKRxuR6RFg==
     rewardWeightBps: 159250
