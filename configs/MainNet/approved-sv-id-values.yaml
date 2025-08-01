@@ -34,7 +34,9 @@ approvedSvIdentities:
       - beneficiary: "angelhack-mainnet-1::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060" # AngelHack CIP-0053 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 10000
       - beneficiary: "Kaiko-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Kaiko CIP-0063 # escrow party_id added to the GhostSV-validator-1
-        weight: 65000
+        weight: 55000
+      - beneficiary: "kaiko-mainnet-1::1220f67b4f1c8742d83ac7e12749d98195bf88ff120b2dab369291cf6a2ca27be9a9" # Kaiko CIP-0063 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 10000
       - beneficiary: "kiln-validator-1::12209024881cf76bf1c15342e9e3b4bd751d5582947a58b42a6532eef867f83ceea3" # Kiln CIP-0036
         weight: 10000
       - beneficiary: "figment-mainnetValidator-1::1220b46e6ce64f99510274b4aaa573b32089e69cfee0f1e918539f19f78e9ea23ba4" # Figment CIP-0054
