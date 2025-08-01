@@ -27,7 +27,7 @@ approvedSvIdentities:
         weight: 10000
       - beneficiary: "bitwave-finance-1::1220ab03fc0c7f77428d8f568276b64a6e6a04e340c842581a0d4e676ad7e094c1bb" # Bitwave CIP-0055
         weight: 10000
-      - beneficiary: "IntellectEU-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # IntellectEU CIP-0058 # escrow party_id added to the GhostSV-validator-1
+      - beneficiary: "IntellectEU-SVrewards-1::122085181345795b9e58122cef90b8df61ddfe128cdaf9abbcb77f8cef92950c1d05" # IntellectEU CIP-0058 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 10000
       - beneficiary: "AngelHack-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # AngelHack CIP-0053 # escrow party_id added to the GhostSV-validator-1
         weight: 15000
