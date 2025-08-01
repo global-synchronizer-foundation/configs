@@ -1,7 +1,7 @@
 approvedSvIdentities:
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWLDU/xZzCtl6prd15Dyi+2/zMtSbHpQh8wJ/R3J9YKDVNpkJVo+qBkmYYSdlAifLz1aymUKqZlWDBvtQCJIaA==
-    rewardWeightBps: 505000
+    rewardWeightBps: 530000
     extraBeneficiaries:
       - beneficiary: "validator_GSF-1::12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79"
         weight: 100000
@@ -39,6 +39,8 @@ approvedSvIdentities:
         weight: 10000
       - beneficiary: "figment-mainnetValidator-1::1220b46e6ce64f99510274b4aaa573b32089e69cfee0f1e918539f19f78e9ea23ba4" # Figment CIP-0054
         weight: 10000
+      - beneficiary: "TRM-validator-1::1220bc3dc0350c7c2479ff1e7dfc67f4af0ee25c9ab63861d953483d9bdbb36691fe" # TRM CIP-0043
+        weight: 25000
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcGfwLnDE3vQuWcHE7CfVABigVK5nPeAjqFf66pIlXpqeoklu4KMnDE4Zse465NcWUgfMnjmmSw53hKRxuR6RFg==
     rewardWeightBps: 159250
