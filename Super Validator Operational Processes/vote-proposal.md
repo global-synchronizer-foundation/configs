@@ -16,7 +16,7 @@ This is a draft process based on current working practices and discussions in pr
   - Draft a CIP per CIP guidelines.
   - Submit it as a pull request (PR) to the [CIP repo](https://github.com/global-synchronizer-foundation/cips).
 
-- For operational votes not requiring a CIP (e.g. weight updates, featured app markers):
+- For operational votes that rely on an existing CIP, or a decision by the Tokenomics committee (e.g. weight updates, featured app status):
   - Prepare a clear proposal text (Slack or Google Doc is fine), including:
     - The exact action to be taken
     - Networks impacted (DevNet, TestNet, MainNet)
