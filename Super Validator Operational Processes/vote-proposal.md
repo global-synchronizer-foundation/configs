@@ -14,13 +14,6 @@ This is a draft process based on current working practices and discussions in pr
 
 - All Vote proposals should follow the [CIP guidelines](https://github.com/global-synchronizer-foundation/cips/blob/main/cip-0000/cip-0000.md) first.
 
-- For operational votes that rely on an existing CIP, or a decision by the Tokenomics committee (e.g. weight updates, featured app status):
-  - Prepare a clear proposal text (Slack or Google Doc is fine), including:
-    - The exact action to be taken
-    - Networks impacted (DevNet, TestNet, MainNet)
-    - Proposed timing and effectivity
-    - Links to any supporting materials or references
-
 #### 2. Initiate on-ledger vote
 
 - Use the SV UI or corresponding SV app API to create the on-ledger vote.
