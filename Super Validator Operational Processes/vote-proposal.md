@@ -12,9 +12,7 @@ This is a draft process based on current working practices and discussions in pr
 
 #### 1. Draft your proposal
 
-- For new CIPs:
-  - Draft a CIP per CIP guidelines.
-  - Submit it as a pull request (PR) to the [CIP repo](https://github.com/global-synchronizer-foundation/cips).
+- All Vote proposals should follow the [CIP guidelines](https://github.com/global-synchronizer-foundation/cips/blob/main/cip-0000/cip-0000.md) first.
 
 - For operational votes that rely on an existing CIP, or a decision by the Tokenomics committee (e.g. weight updates, featured app status):
   - Prepare a clear proposal text (Slack or Google Doc is fine), including:
