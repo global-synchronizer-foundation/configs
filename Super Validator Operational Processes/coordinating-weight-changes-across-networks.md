@@ -9,11 +9,11 @@
 ### Background
 - The SV network relies on the consistency between onchain weights and the GitHub configuration file.
 
-- The configuration file at https://sync.global is used:
+- The configuration file [on github](https://github.com/global-synchronizer-foundation/configs) is used:
   - By SV owners to verify weight allocations are correct.
   - During SV re-onboarding (nodes receive the weight defined in the file).
 
-- Agreement from Operations Call: Adopt Option 3a for synchronization:
+- Agreement from Operations Call: 
   - Keep a single PR if all votes have the same effective date.
   - The node that proposes the weight change is responsible for updating the file.
 
@@ -34,7 +34,7 @@
 - Responsible Party: The SV node that proposed the onchain weight change.
 - File to Update: approved-sv-id-values.yaml in configs repo.
 - Required Changes: Update the weight values for the relevant SV IDs to match the onchain result.
-- Commit Message Format:`chore(weights): sync with onchain vote [vote ID or link]1
+- Commit Message Format:`chore(weights): sync with onchain vote [vote ID or link]
 
 - Pull Request Requirements:
 - Target main branch.
