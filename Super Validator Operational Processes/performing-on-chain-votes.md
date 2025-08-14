@@ -24,7 +24,7 @@ This is a draft process based on current practices and agreements from SV operat
 
 #### 3. Announce the Vote
 
-- Send an email to the **`supervalidator-ops@lists.sync.global`** channel immediately after initiating the vote.
+- Send an email to the **`supervalidator-announce@lists.sync.global`** channel immediately after initiating the vote.
 - The announcement must include:
   - A **link** back to the on-chain vote proposal **or** the **contract ID** of the vote.
   - A **link** to the CIP or tokenomics announcement.
