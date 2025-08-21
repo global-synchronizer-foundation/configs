@@ -26,13 +26,13 @@ This is a draft process based on current practices and agreements from SV operat
 
 - Send an email to the **`supervalidator-announce@lists.sync.global`** channel immediately after initiating the vote.
 - The announcement must include:
-  - A **link** back to the on-chain vote proposal **or** the **contract ID** of the vote.
+  - The **contract ID** of the vote.
   - A **link** to the CIP or tokenomics announcement.
   - Any additional relevant context.
 
 #### 4. Approval Before Announcement
 
-- The vote announcement **must** be approved by the **lead SV operator** for the proposing organization before it is sent.
+- The vote announcement on supervalidator-announce@lists.sync.global **must** be approved by the **lead SV operator** for the proposing organization before it is sent.
 
 #### 5. Record and Follow Up
 
