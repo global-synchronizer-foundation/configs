@@ -33,3 +33,45 @@ You can use the script [new-whitelist.sh](https://github.com/global-synchronizer
 #### 3. Notes
 
 - SV operators are encouraged to document their current practices during review of this draft.
+
+
+## How to Request Read-Only Access for Your IP Address
+
+### Purpose
+
+This process allows an IP address to reach the **scan endpoint** of the **SV** (Synchronizer-Validator). It will not be able to access other components such as the **sequencer** or **CometBFT**. The primary purpose is to serve read-only applications such as **chain analytics** or **explorers**.
+
+### Process
+
+Similar to the "`How to Ask for a New Whitelisted IP Process`" section above, you will need to submit a **PR** (Pull Request) to the same repository and file.
+
+For each network, locate the `read-only clients` section in the `config/<(DevNet|Testnet|Mainnet)>/allowed-ip-ranges.json` file and add a new element in this format:
+
+```
+"<org-name> / <operator-name-or-sponsor-name>" : [
+  "ip1/32",
+  "ip2/32"
+]
+```
+
+When the organization runs the node themselves, list the sponsor in the second part after the dash (/).
+
+The key needs to be sorted. You can perform a sort with a one-line script:
+
+```
+jq '."read-only clients" |= (to_entries | sort_by(.key | ascii_downcase) | from_entries)' configs/<(DevNet|Testnet|Mainnet)>/allowed-ip-ranges.json > tmp.json && mv tmp.json configs/MainNet/allowed-ip-ranges.json
+```
+
+Alternatively, you can use the script [new-whitelist.sh](https://github.com/global-synchronizer-foundation/configs-private/blob/main/scripts/new-whitelist.sh), which automates most of the steps above, including PR creation.
+
+Currently, only individual IPs are allowed, so you will need to explicitly write out multiple `/32` entries if you have a range. There isn't an official limit on how many IPs are allowed, but keep it fewer than three.
+
+Unlike validator IPs, read-only access IP addresses can be reused across all network environments (**Dev**, **Test**, and **Main**).
+
+When submitting the PR, briefly provide information about:
+
+* The application and the organization
+
+* The access pattern your app will generate
+
+* Your plan to ensure a reasonable request rate to the scan application, especially spreading the load across SV scans to avoid overloading an individual scan. Overloading may result in your IP being rate-limited and blocked by certain SVs.
