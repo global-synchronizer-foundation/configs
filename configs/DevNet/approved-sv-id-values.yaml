@@ -28,7 +28,7 @@ approvedSvIdentities:
     rewardWeightBps: 159250
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+2XaCekgPDPoEzXeo3yYf6Y+3zbIXKMoR2WYl/pa8CMuOloMXHUfdi6viBJcvoLij7ti5PaqLp1PHJ5tWLteVQ==
-    rewardWeightBps: 505000
+    rewardWeightBps: 755000
     extraBeneficiaries:
       - beneficiary: "GSF-validator-1::12203b389175d5d9a67a443078b3867fb179fc730d5dfb6aca3c509c37e926a6e24b" # GSF-1
         weight: 100000
@@ -58,6 +58,12 @@ approvedSvIdentities:
         weight: 10000
       - beneficiary: "figment-devnet-validator-1::12200a16a17dd793b33b61b503fb291bd21e08d856a6d383b2034d1c2ef47977268a" # Figment CIP-0054
         weight: 10000
+      - beneficiary: "MonsteraFZE-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Monstera FZE CIP-0052 # escrow party_id added to the GhostSV-validator-1
+        weight: 50000
+      - beneficiary: "WoodsideAI-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Woodside AI CIP-0059 # escrow party_id added to the GhostSV-validator-1
+        weight: 100000
+      - beneficiary: "ZeroHash-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Zero Hash CIP-0060 # escrow party_id added to the GhostSV-validator-1
+        weight: 75000
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgWriOYpZeYXC09cPOKm/s1MzZSrJvKZc3Mz4RqYLsA7j/umQfLFKqWWu1TT77JrrGTTp57aXUTcrGg0DvyRq/Q==
     rewardWeightBps: 20000
