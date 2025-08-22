@@ -1,81 +1,81 @@
 approvedSvIdentities:
   - name: SV-Nodeops-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETM+CeyHvphl9RiPDKL3vVX7F+Qo4fIhJopmgU5B7IzkwSdFic20hFB6tnAuCTU+UBjqZgh8N/h9r+CTrXMPsRg==
-    rewardWeightBps: 102500
+    rewardWeightBps: 10_2500
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsRRntNkOLF2Wh7JxV0rBQPgT+SendIjFLXKUXCrLbVHqomkypHQiZP8OgFMSlByOnr81fqiUt3G36LUpg/fmgA==
-    rewardWeightBps: 159250
+    rewardWeightBps: 15_9250
   - name: Digital-Asset-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPKz6BujCKqA6ACviIybPw8aYTsKOYkWN6spIWL4CTxiH26QCyrrYFH06OGxa8UykyPM0yuywDXKF3ZVpWyF0hw==
-    rewardWeightBps: 159250
+    rewardWeightBps: 15_9250
   - name: Cumberland-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEE0FEwOWZIsogzxbfkFDvg6iVR2P8zmzCwemylXF9/hxynlJOPo4vg3W9AS7y50X5qqj9yrWvVeT9iC1dDMIE0g==
-    rewardWeightBps: 136125
+    rewardWeightBps: 13_6125
   - name: Cumberland-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdbZaNrBDaGGpZZ3URiMHoSL2N0WSIt/aVlkQYATwoc7htI9FkysxE8dN1yimjSKYz6VcDCr8NqRfd5ENMVEscg==
-    rewardWeightBps: 136125
+    rewardWeightBps: 13_6125
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETri1wBeoV3AYnEF/slvViz9GO2g2lcxUQ3SadBTA70Kn87KzAZ/25n6+hhuRebuuGlm70KFKGJGr8RFd1YjB1Q==
-    rewardWeightBps: 755000
+    rewardWeightBps: 75_5000
     extraBeneficiaries:
       - beneficiary: "GSF-validator-1::1220cff733e3a29f50b3104f573d51461e85cd685b28dafa684c40813975e6e2ce3d"
-        weight: 100000
+        weight: 10_0000
       - beneficiary: "Broadridge-validator-1::1220c89a73e7b47f16dfb48a521eeedfe2a8620ea1b19b815ab427388d9f5427faa5"
-        weight: 100000
+        weight: 10_0000
       - beneficiary: "thetie-validator-0::1220e81793d395d56922d4e31e248480a7be6fe1b96082107bf56f4ce0b11b3f0e7d" # The Tie
-        weight: 10000
+        weight: 1_0000
       - beneficiary: "copper-testnetValidator-1::1220030d943f303ae8703182bc73014a62107f46086098ae89353cd969f35a1ecb31" # Copper
-        weight: 10000
+        weight: 1_0000
       - beneficiary: "DFNS-validator-1::1220b916c84570d2b3d3d4692a8d905ba410f4da4c6cc9578ca9284dfa64235e8a2d" # Dfns
-        weight: 10000
+        weight: 1_0000
       - beneficiary: "copper-testnetValidator-1::1220030d943f303ae8703182bc73014a62107f46086098ae89353cd969f35a1ecb31" # Copper Clearloop CIP-0039
-        weight: 10000
+        weight: 1_0000
       - beneficiary: "ObsidianSystems-validator-1::12200a97a3589a8fd95940922a6103363081ec4e73504e536353563cff8138aec0a0" # Obsidian Systems CIP-0037
-        weight: 10000
+        weight: 1_0000
       - beneficiary: "circle-validator-1::1220b37c0a6fc08a8364fc3cedcd211044cc73d4eb68f0e5cdab12004fb7812ee453" # Circle CIP-0041
-        weight: 100000
+        weight: 10_0000
       - beneficiary: "bitwave-testnet-2::1220f85d0de84a8c2de9052f45c15b3729081b09e324686ee32114a2bf7e9727c388" # Bitwave CIP-0055
-        weight: 10000
+        weight: 1_0000
       - beneficiary: "IntellectEU-SVrewards-1::12200845f349239c218b93cc39374aee18db8e876f63f85469cc71aa07d821d34936" # IntellectEU CIP-0058 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 10000
+        weight: 1_0000
       - beneficiary: "AngelHack-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # AngelHack CIP-0053 # escrow party_id added to the GhostSV-validator-1
-        weight: 25000
+        weight: 2_5000
       - beneficiary: "Kaiko-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Kaiko CIP-0063 # escrow party_id added to the GhostSV-validator-1
-        weight: 65000
+        weight: 6_5000
       - beneficiary: "kiln-testnetValidator-1::1220cd771ebde43c6a4a34969354f3201c5eb1be2f69af9c1deedcd9a6a990c1bfa6" # Kiln CIP-0036
-        weight: 10000
+        weight: 1_0000
       - beneficiary: "figment-testnet-validator-1::1220483d71e2147a1e3309608821b0e6f53e6a274b96869204bf11812d313773d097" # Figment CIP-0054
-        weight: 10000
+        weight: 1_0000
       - beneficiary: "MonsteraFZE-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Monstera FZE CIP-0052 # escrow party_id added to the GhostSV-validator-1
-        weight: 50000
+        weight: 5_0000
       - beneficiary: "WoodsideAI-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Woodside AI CIP-0059 # escrow party_id added to the GhostSV-validator-1
-        weight: 100000
+        weight: 10_0000
       - beneficiary: "ZeroHash-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Zero Hash CIP-0060 # escrow party_id added to the GhostSV-validator-1
-        weight: 75000
+        weight: 7_5000
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOxCYWSBB4hDz7O1XxJ3xswKXxJcQqsgyzBTbWjkwa+ILYXy8T2vtVMoZ+tC/Ykdp3MyFwcMIP1kzcDKCSp0qow==
-    rewardWeightBps: 20000
+    rewardWeightBps: 2_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c66f44bc7589a682afe95a21d::12208fdbf6156f607c104512ce12fcb382ce3ec3116e7aa5ddb02b7fce237efd4843" # MPCH
-        weight: "10000"
+        weight: 1_0000
   - name: Orb-1-LP-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEM/I3om2cE1ccDhYdy3wwKys3afBskv/OsRe8Jr52RywZOke+TfNbqQYcltATswgDi3HPdJUG3IEgo4Fh2vfl+g==
-    rewardWeightBps: 100000
+    rewardWeightBps: 10_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c67ac9d2a0e7d47579fd8d6a3::12204393562d687374821ac1413f623ddbf75c35a82779228edb0005120cbbc6535f" # Nima Capital
-        weight: "50000"
+        weight: 5_0000
   - name: Tradeweb-Markets-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEO3NIzHIIxatGCFHLdONUYNJ3SePvA4lq3EbtMgvpe1CoALZZ+CRNZrHNsj49jdeJNQgcJBPsOcW7XP6VF7Q1YA==
-    rewardWeightBps: 100000
+    rewardWeightBps: 10_0000
   - name: C7-Technology-Services-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIyvyNX23/fxKnCkKArjOWxi+OBUtIXw4GoEGFMG4JXZBeVYYU6s4hBA5heMKDVaFszYEQQP1bBfjSQwWJ8PLDA==
-    rewardWeightBps: 105750
+    rewardWeightBps: 10_5750
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJkWEYEGZXazTVemWdA9IEjV7LryooS6OsypdNi3rpfLDgGffwZJhjGcA1wWiOpxQkbM8B0VkfNLs24OCLAf1HA==
-    rewardWeightBps: 30500
+    rewardWeightBps: 3_0500
   - name: Proof-Group-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEX1G0Gc5kYqisXQk0GZpygZ7cOmo5AHh0+87ZVnwPUXdA9msdGm/XCCTfFz4g7x4QfhgXHEARGSTqvIq5PbUqTQ==
-    rewardWeightBps: 12500
+    rewardWeightBps: 1_2500
   - name: Liberty-City-Ventures-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzPiiGTxeSKO+HBOekWSXKpAziP2hlRvwdYmbvmL8BwdCBsRZGc5UELlo9rS3DOfhg6/W+oundvzqzsNQKVBb4w==
-    rewardWeightBps: 100000
+    rewardWeightBps: 10_0000
