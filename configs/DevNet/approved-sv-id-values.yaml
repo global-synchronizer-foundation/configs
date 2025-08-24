@@ -28,7 +28,7 @@ approvedSvIdentities:
     rewardWeightBps: 159250
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+2XaCekgPDPoEzXeo3yYf6Y+3zbIXKMoR2WYl/pa8CMuOloMXHUfdi6viBJcvoLij7ti5PaqLp1PHJ5tWLteVQ==
-    rewardWeightBps: 805000
+    rewardWeightBps: 755000
     extraBeneficiaries:
       - beneficiary: "GSF-validator-1::12203b389175d5d9a67a443078b3867fb179fc730d5dfb6aca3c509c37e926a6e24b" # GSF-1
         weight: 100000
@@ -64,8 +64,6 @@ approvedSvIdentities:
         weight: 100000
       - beneficiary: "ZeroHash-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Zero Hash CIP-0060 # escrow party_id added to the GhostSV-validator-1
         weight: 75000
-      - beneficiary: "Ubyx-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Ubyx CIP-0071 # escrow party_id added to the GhostSV-validator-1
-        weight: 50000
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgWriOYpZeYXC09cPOKm/s1MzZSrJvKZc3Mz4RqYLsA7j/umQfLFKqWWu1TT77JrrGTTp57aXUTcrGg0DvyRq/Q==
     rewardWeightBps: 20000
