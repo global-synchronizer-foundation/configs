@@ -11,9 +11,9 @@
 
 [https://sync.global/docs/](https://sync.global/docs/)
 
-**Join the #validator-operations channel hosted by the Global Synchronizer Foundation using Slack Connect:**
+**We highly recommend you join slack through slack connect**
 
-[https://docs.dev.sync.global/validator_operator/validator_onboarding.html#slack](https://docs.dev.sync.global/validator_operator/validator_onboarding.html#slack)
+[Visit this link for our Slack Channel guide](https://sync.global/get-involved/)
 
 → Your Slack workspace may allow you to browse to this channel, or you can ask your SV sponsor to send you an invitation. 
 
@@ -22,7 +22,7 @@
 1. Provide the public IP of your environment, where you will set up the dev validator node, to your sponsor SV.
 2. Periodically check the progress of whitelisting using [this instruction](https://docs.dev.sync.global/validator_operator/validator_onboarding.html#validating-that-your-ip-has-been-approved).
 3. Once whitelisted by the majority of Super Validators, request an onboarding secret using the instructions from the `ONBOARDING_SECRET` block [here](https://docs.dev.sync.global/validator_operator/validator_helm.html#required-network-parameters).
-4. Use the obtained onboarding secret to join the DevNet. If you face any issues, don't hesitate to ask for help at the #validator-operations Slack channel.
+4. Use the obtained onboarding secret to join the DevNet. If you face any issues, don't hesitate to ask for help at the #validator-operations or #validator-operations-onboarding Slack channel.
 
 **Next Steps (TestNet and/or MainNet):**
 
@@ -48,9 +48,6 @@ To join these lists,
 1. Create an account at groups.io
 2. Go to lists.sync.global and sign up
 
-
-
-
 ## 1. Whitelist your IP for DevNet
 
 Share your IP with your Super Validator sponsor. 
@@ -63,19 +60,15 @@ The Super Validator sponsor will submit a request to the other Super Validators.
 
 	`curl https://scan.sv-1.dev.global.canton.network.sync.global/api/scan/v0/scans | jq`
 
-
 ## 2. Spin up your DevNet Node
 
 Follow the steps detailed in the documentation below to spin up your node in preparation for joining DevNet.
-
 
 ## 3. Request a Secret from your SV Sponsor
 
 Once ⅔ of the Super Validators have whitelisted your IP address, you’ll be able to join DevNet. To join, request an onboarding secret via API call (curl). 
 
 Request approval to join MainNet. To do so: 
-
-
 
 * Ask a Super Validator to sponsor you on MainNet
 * Complete the Validator node request form here: [https://sync.global/validator-request/](https://sync.global/validator-request/)
