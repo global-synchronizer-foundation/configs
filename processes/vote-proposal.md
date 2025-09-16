@@ -12,16 +12,7 @@ This is a draft process based on current working practices and discussions in pr
 
 #### 1. Draft your proposal
 
-- For new CIPs:
-  - Draft a CIP per CIP guidelines.
-  - Submit it as a pull request (PR) to the [CIP repo](https://github.com/global-synchronizer-foundation/cips).
-
-- For operational votes not requiring a CIP (e.g. weight updates, featured app markers):
-  - Prepare a clear proposal text (Slack or Google Doc is fine), including:
-    - The exact action to be taken
-    - Networks impacted (DevNet, TestNet, MainNet)
-    - Proposed timing and effectivity
-    - Links to any supporting materials or references
+- All Vote proposals should follow the [CIP guidelines](https://github.com/global-synchronizer-foundation/cips/blob/main/cip-0000/cip-0000.md) first.
 
 #### 2. Initiate on-ledger vote
 
