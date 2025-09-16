@@ -4,6 +4,8 @@ on:
   pull_request:
     branches:
       - main
+  merge_group:
+    types: [checks_requested]
 
 permissions: {}
 
@@ -63,4 +65,4 @@ jobs:
           exit "$exit_code"
         env:
           SOURCE_BRANCH: ${{ github.sha }}
-          TARGET_BRANCH: "origin/${{ github.base_ref }}"
+          TARGET_BRANCH: ${{ github.event_name == 'merge_group' && github.event.merge_group.base_sha || format('origin/{0}', github.base_ref) }}

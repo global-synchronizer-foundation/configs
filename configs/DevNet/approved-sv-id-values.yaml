@@ -1,16 +1,16 @@
 approvedSvIdentities:
   - name: SV-Nodeops-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExZqACOeB0Es3PQp+BgBXioU67aO3XTxuM/tDaF05SPYLQlS5zhE+om9CMqAz8BLuNEGqPp/E17DNiaGkLVLfPA==
-    rewardWeightBps: 102500
+    rewardWeightBps: 10_2500
   - name: Cumberland-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESLPPYUXcHS7yOEmDHHA4+/UueQM9KU26GvMXqYVJh/okOWFzdiXWtSDZfL1dYUJ9q9KrkNztVlANExBTjY70Vw==
-    rewardWeightBps: 136125
+    rewardWeightBps: 13_6125
   - name: Cumberland-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE9/PUF/FFmdhbJNtxt+fR67LEW9vM/NluHSKTecvaqx7EYymDRsJf0GShphXwJAgrFzEOQ0Vsmbu6dmO6N1x8/g==
-    rewardWeightBps: 136125
+    rewardWeightBps: 13_6125
   - name: Digital-Asset-Eng-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsRRntNkOLF2Wh7JxV0rBQPgT+SendIjFLXKUXCrLbVHqomkypHQiZP8OgFMSlByOnr81fqiUt3G36LUpg/fmgA==
-    rewardWeightBps: 140000
+    rewardWeightBps: 14_0000
   - name: Digital-Asset-Eng-3
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0fnbBQiM7UiSNaV6tjPq5lK2buIx5L5nzUuhYWxBk341nFChcbK9pDEO4O6gdxexb/OQP6RhQkDOTDdTCr77CA==
     rewardWeightBps: 0
@@ -19,64 +19,72 @@ approvedSvIdentities:
     rewardWeightBps: 0
   - name: DA-Helm-Test-Node
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1eb+JkH2QFRCZedO/P5cq5d2+yfdwP+jE+9w3cT6BqfHxCd/PyA0mmWMePovShmf97HlUajFuN05kZgxvjcPQw==
-    rewardWeightBps: 10000
+    rewardWeightBps: 1_0000
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE5ZIIu7ciMWwgNmciMq8SfgY6eVi1o8feUEztydSg4cn8bF2mcd59XF7zbXRoxNKpLW2gNz6gnv8Ldfn5MkHPbA==
-    rewardWeightBps: 159250
+    rewardWeightBps: 15_9250
   - name: Digital-Asset-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEigGf2Onr2vc4jP3uFJ+ZVelkd/V2f07cwQRjrRS+AICooKg3OMFEzkFgZZjbyWJT9vUZte3y8iAXNIMwBNPw6g==
-    rewardWeightBps: 159250
+    rewardWeightBps: 15_9250
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+2XaCekgPDPoEzXeo3yYf6Y+3zbIXKMoR2WYl/pa8CMuOloMXHUfdi6viBJcvoLij7ti5PaqLp1PHJ5tWLteVQ==
-    rewardWeightBps: 495000
+    rewardWeightBps: 75_5000
     extraBeneficiaries:
-      - beneficiary: "GSF-validator-1::1220dc05147ec4b91b61ebc970af0e10f1daebd4bf6d8274c2e1a3bf9f7cb7988a81" # GSF-1
-        weight: "100000"
-      - beneficiary: "Broadridge-validator-1::12207fe33e049ae3edfa6c4cb7fd79547732e4ec68393b81257e1a139f4c137f14d0" # Broadridge
-        weight: "100000"
-      - beneficiary: "TheTie-validator-1::12202554d6a291a2e430608b61f7816075b7be8de24d9a1db5da712ffd40f012b911" # The-Tie
-        weight: "10000"
-      - beneficiary: "copper-devnetValidator-3::1220848005cbf8e3b7fd5a1736a49e8661222e7b2eb4bbde0614b06f51b972c525f5" # Copper
-        weight: "10000"
-      - beneficiary: "DFNS-validator-1::1220b260c467f792172e74dbc797b1efcaf87cc803890ffdff432e2bb7535d119232" # Dfns
-        weight: "10000"
-      - beneficiary: "copper-devnetValidator-3::1220848005cbf8e3b7fd5a1736a49e8661222e7b2eb4bbde0614b06f51b972c525f5" # Copper Clearloop CIP-0039
-        weight: "10000"
-      - beneficiary: "ObsidianSystems-validator-1::1220897ffe644aacde52caf234d8602f9f8eb17cb6a77e0508678ca43493374bb49b" # Obsidian Systems CIP-0037
-        weight: "10000"
-      - beneficiary: "circle-validator-1::1220265caf3abff95a901fc7574dcd39874d4d84d15c2c4faa66561caa73a78379fa" # Circle CIP-0041
-        weight: "100000"
-      - beneficiary: "bitwave-devnet-1::1220a474e86506c3781db887202f05da95465669222969dfa0d04b69d921d556a034" # Bitwave CIP-0055
-        weight: "10000"
-      - beneficiary: "IntellectEU-ghost-1::12202b8920165055eb9377c49c458eb9a4151423592aa95e8a80d31865d110d49ccc" # IntellectEU CIP-0058
-        weight: "10000"
-      - beneficiary: "AngelHack-ghost-1::12202b8920165055eb9377c49c458eb9a4151423592aa95e8a80d31865d110d49ccc" # AngelHack CIP-0053
-        weight: "25000"
-      - beneficiary: "Kaiko-ghost-1::12202b8920165055eb9377c49c458eb9a4151423592aa95e8a80d31865d110d49ccc" # Kaiko CIP-0063
-        weight: "65000"
-      - beneficiary: "kiln-validator-0::1220c7eddc3b47b5bdc42b7fdca7c8bcf2e9ae6d1944eef200b8f8b438687c8ae881" # Kiln CIP-0036
-        weight: "10000"
+      - beneficiary: "GSF-validator-1::12203b389175d5d9a67a443078b3867fb179fc730d5dfb6aca3c509c37e926a6e24b" # GSF-1
+        weight: 10_0000
+      - beneficiary: "Broadridge-validator-1::1220fceea4df4fa5671db0be99c014a3cc0c904ba109530cd9ec3b461e6b332a1780" # Broadridge
+        weight: 10_0000
+      - beneficiary: "TheTie-validator-1::1220944b4dab3e3436c9ca6c331b6c9b11d908d71db471e44bc5d0bce6b5e81a796e" # The-Tie
+        weight: 1_0000
+      - beneficiary: "copper-devnetValidator-4::12205df2ba2095b2642ad76aa64aeef7840d6d87057d1b980013d1ad741df146b827" # Copper
+        weight: 1_0000
+      - beneficiary: "DFNS-validator-1::1220b4a27fccdd8744ca317c428dc3005eb65c2f995e18dc271ebb00517419125952" # Dfns
+        weight: 1_0000
+      - beneficiary: "copper-devnetValidator-4::12205df2ba2095b2642ad76aa64aeef7840d6d87057d1b980013d1ad741df146b827" # Copper Clearloop CIP-0039
+        weight: 1_0000
+      - beneficiary: "ObsidianSystems-validator-6::1220b8b7cfcc7e607c5aa967a880ef39c65543a617895aab20c0fe89ed5608d19edf" # Obsidian Systems CIP-0037
+        weight: 1_0000
+      - beneficiary: "circle-validator-1::12204f2fcd4f0b71ac10dc62a2fe2b57c7e8160008637d051d4bfff3f5236ae515fb" # Circle CIP-0041
+        weight: 10_0000
+      - beneficiary: "bitwave-devnet-2::1220eecc99dfcc432bbfb358380472523f2189c014f7c632dd60c5430581eda25bc3" # Bitwave CIP-0055
+        weight: 1_0000
+      - beneficiary: "IntellectEU-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # IntellectEU CIP-0058 # escrow party_id added to the GhostSV-validator-1
+        weight: 1_0000
+      - beneficiary: "AngelHack-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # AngelHack CIP-0053 # escrow party_id added to the GhostSV-validator-1
+        weight: 2_5000
+      - beneficiary: "Kaiko-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Kaiko CIP-0063 # escrow party_id added to the GhostSV-validator-1
+        weight: 6_5000
+      - beneficiary: "kiln-devnetValidator-1::122030d0afac1b1d797fcef6095ca7c60a38ce644295c730389e0276d213d23f1a10" # Kiln CIP-0036
+        weight: 1_0000
+      - beneficiary: "figment-devnet-validator-1::12200a16a17dd793b33b61b503fb291bd21e08d856a6d383b2034d1c2ef47977268a" # Figment CIP-0054
+        weight: 1_0000
+      - beneficiary: "MonsteraFZE-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Monstera FZE CIP-0052 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
+      - beneficiary: "WoodsideAI-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Woodside AI CIP-0059 # escrow party_id added to the GhostSV-validator-1
+        weight: 10_0000
+      - beneficiary: "ZeroHash-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Zero Hash CIP-0060 # escrow party_id added to the GhostSV-validator-1
+        weight: 7_5000
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgWriOYpZeYXC09cPOKm/s1MzZSrJvKZc3Mz4RqYLsA7j/umQfLFKqWWu1TT77JrrGTTp57aXUTcrGg0DvyRq/Q==
-    rewardWeightBps: 10000
+    rewardWeightBps: 2_0000
   - name: Tradeweb-Markets-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyKrg8RhVQXq6+EKlwTExaoOOEWMp2JyiA1xRkFZNZo6m5ixBgQwC4vvmkPadDvGsxEniwAfLi0l+1vbnROs04Q==
-    rewardWeightBps: 100000
+    rewardWeightBps: 10_0000
   - name: Orb-1-LP-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEb73mu4LMvV7PgwhI7VpDi/UhGalALpA3eiia8hN13Er0/X9CAwhWWBpUz7cAdnTIbQQcEp/AyagQjjMNZ+zKvw==
-    rewardWeightBps: 100000
+    rewardWeightBps: 10_0000
   - name: C7-Technology-Services-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVAJEEaXnB+CU+rV5QS4I0eNH14YBXHmrl2ubLzOu7vhez3orP1MDmGSD3gLiP9oxi1XiI+D/JcNohAxlm/DDpw==
-    rewardWeightBps: 105750
+    rewardWeightBps: 10_5750
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVSqn1J3YWij1KBWVNKKOQ8aEPeUc9SFe418mneRdV/PJOX4awAePDrG7A09SYkqP8dyg8ESMw5ltV0dJt5eqlQ==
-    rewardWeightBps: 30500
+    rewardWeightBps: 3_0500
   - name: Proof-Group-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEeSP06KmTXsRJ65JGYwtzKRX9gosW+Gf4IwIquPGT8+XM1ey9La4wdZ+eELNZMPGacQ9fDe2JPFuRJE+fdVsfOQ==
-    rewardWeightBps: 10000
+    rewardWeightBps: 1_2500
   - name: Liberty-City-Ventures-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVpFXAPDcz1WHvXrG35YzF9Fgn5P29oVfFkR+QN7DO4v3b/QzTnH+BsBb01gd3KhkuRg+sLj4vLQo/ZOSSyGO0g==
-    rewardWeightBps: 100000
+    rewardWeightBps: 10_0000
   - name: Bitwave-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaVPLiP6420egNc8e29KjVq/RjhyxWSRUieI2bMvzZPgxlDGd+hvpw/3+pZiEu59xwI1e0d4oHH2xEcN/x/+Amg==
     rewardWeightBps: 0
