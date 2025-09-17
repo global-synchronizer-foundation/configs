@@ -49,6 +49,5 @@ This is a draft process reflecting recent discussions and an upcoming decision o
 
 ### Notes
 
-- **Proof Group’s block explorer** ([https://cantonscan.com](https://cantonscan.com)) is intended to fulfill most basic Scan UI viewing requirements.
 - This policy may become permanent as early as the day following approval.
 - The intent is to minimize operational complexity while preserving needed transparency.
