@@ -17,7 +17,7 @@ This is a draft process based on the decision made on **June 24, 2025** to reset
 #### 2. Pre-Reset Preparation
 
 - At least **two weeks before the scheduled reset**:
-  - Announce the planned reset in `#supervalidator-ops` on Slack.
+  - Announce the planned reset in `#supervalidator-operations`, `validator-operations`, and `validator-operations-onboarding` on Slack.
   - Send an email to `supervalidator-announce@lists.sync.global` and `validator-announce@lists.sync.global` with:
     - The planned reset date and time (in UTC)
     - Expected downtime, if any
