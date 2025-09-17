@@ -24,7 +24,7 @@ This document describes agreed-upon logging policies, responsibilities, and hand
 
 ### What Will Be in the Logs
 - Logs are not expected to contain sensitive information.  
-- When nodes keep keys in KMS and secure database credentials, risk is minimal.  
+- When nodes keep keys in KMS and secure database credentials, risk from log sharing is minimal.  
 - Operators must manually verify that secrets are removed.  
 
 ### Retention & Deletion
