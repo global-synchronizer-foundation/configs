@@ -30,6 +30,7 @@ This is a draft process based on the decision made on **June 24, 2025** to reset
   - All nodes are stopped prior to reset
   - Any necessary snapshots or backups are taken
   - The network is restarted cleanly with updated configurations, if applicable
+  - On TestNet, ensure that the network restarts at a round number as close as possible to the current MainNet minting round. 
 
 #### 4. Post-Reset Actions
 
