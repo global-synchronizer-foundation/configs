@@ -6,7 +6,7 @@ This process defines how to propose and implement changes to the minting weight 
 
 ### Status
 
-This is a draft process based on current practice and the final operator vote adopting separate PRs per network (Option 2). It formalizes the process now in use.
+This is a draft process based on current practice and the final operator vote adopting separate PRs per network (Option 2 as discussed and voted on by the Super Validators on 2025-06-03). It formalizes the process now in use.
 
 ### Process
 
@@ -44,5 +44,5 @@ This is a draft process based on current practice and the final operator vote ad
 
 ### Notes
 
-- This process was adopted as **Option 3a** by formal SV operator vote.
+- This process was adopted as **Option 2** by formal SV operator vote on 2025-06-03.
 - The goal is to maintain consistent weights across networks and the GitHub config.
