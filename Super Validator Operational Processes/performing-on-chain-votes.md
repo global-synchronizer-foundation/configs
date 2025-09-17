@@ -20,7 +20,7 @@ This is a draft process based on current practices and agreements from SV operat
 #### 2. Initiate the On-Chain Vote
 
 - Use the SV UI or the corresponding SV app API to open the on-chain vote.
-- Confirm that the vote description clearly references the related CIP or tokenomics proposal.
+- Confirm that the vote summary clearly references the related CIP or tokenomics proposal.
 
 #### 3. Announce the Vote
 
