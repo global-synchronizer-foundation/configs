@@ -22,7 +22,7 @@ This is a draft process reflecting recent discussions and an upcoming decision o
 - Operators will discuss the request during an SV Ops meeting or through the agreed asynchronous vote process.
 - Considerations include:
   - The requester’s legitimate need to view Scan UI without tunneling through their cluster.
-  - Whether existing tools, such as the **Proof Group’s block explorer** ([https://cantonscan.com](https://cantonscan.com)), already meet the requester’s needs.
+  - Whether existing block explorers or public RPC endpoints already meet the requester’s needs.
 
 #### 3. Voting
 
