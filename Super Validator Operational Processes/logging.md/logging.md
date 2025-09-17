@@ -2,8 +2,7 @@
 
 ### Purpose
 
-Following the Commitments failure as discussed in the SV Ops meeting on 2025-09-16, we identified the need for a consistent approach to log sharing. 
-
+Following the Commitments failure as discussed in the SV Ops meeting on 2025-08-05, the Super Validators identified the need for a consistent approach to log sharing. 
 This document describes agreed-upon logging policies, responsibilities, and handling procedures.
 
 ## Policies
