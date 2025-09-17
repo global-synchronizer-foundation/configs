@@ -35,7 +35,7 @@ This is a draft process based on the decision made on **June 24, 2025** to reset
 #### 4. Post-Reset Actions
 
 - Confirm all nodes are back online and in sync.
-- Announce completion in `#supervalidator-ops` and via `supervalidator-announce@lists.sync.global`.
+- Announce completion in `#supervalidator-operations`, `validator-operations`, `validator-operations-onboarding` and Slack, and and via `supervalidator-announce@lists.sync.global` and `validator-announce@lists.sync.global`.
 - Document any changes in configuration or topology resulting from the reset.
 
 ### Notes
