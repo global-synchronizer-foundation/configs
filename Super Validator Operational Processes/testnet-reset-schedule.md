@@ -13,7 +13,6 @@ This is a draft process based on the decision made on **June 24, 2025** to reset
 #### 1. Reset Frequency
 
 - **Every 6 months** from the last reset date.
-- Standard reset months will be **January** and **July**, unless otherwise decided by SV operators.
 
 #### 2. Pre-Reset Preparation
 
