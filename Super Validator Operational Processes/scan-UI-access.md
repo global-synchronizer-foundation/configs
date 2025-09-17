@@ -28,7 +28,7 @@ This is a draft process reflecting recent discussions and an upcoming decision o
 
 - A vote will determine whether to:
   - Continue adding organization VPNs for read-only Scan UI access.
-  - Rely instead on existing public tools for read-only access.
+  - Rely instead on available public tools for read-only access.
 
 #### 4. Implementation
 
