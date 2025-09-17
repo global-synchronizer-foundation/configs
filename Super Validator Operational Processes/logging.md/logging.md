@@ -16,7 +16,6 @@ This document describes agreed-upon logging policies, responsibilities, and hand
 - Other Super Validator (SV) Operators  
 - Splice team (all organizations)  
 - Canton team  
-- Digital Asset  
 
 ### How Logs Will Be Shared & Secured
 - Logs will be placed in a **limited-access Google Drive folder**.  
