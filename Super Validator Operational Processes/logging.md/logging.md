@@ -2,7 +2,7 @@
 
 ### Purpose
 
-Following the Commitments failure as discussed in the SV Ops meeting on 2025-09-16, we identified the need for a consistent approach to log sharing. A new endpoint to reinitialize ACS commitments will land within ~2 weeks and propagate to mainnet through the normal release cycle.
+Following the Commitments failure as discussed in the SV Ops meeting on 2025-09-16, we identified the need for a consistent approach to log sharing. 
 
 This document describes agreed-upon logging policies, responsibilities, and handling procedures.
 
