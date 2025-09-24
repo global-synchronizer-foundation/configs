@@ -21,7 +21,7 @@ approvedSvIdentities:
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1eb+JkH2QFRCZedO/P5cq5d2+yfdwP+jE+9w3cT6BqfHxCd/PyA0mmWMePovShmf97HlUajFuN05kZgxvjcPQw==
     rewardWeightBps: 1_0000
   - name: Digital-Asset-1
-    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXAlWLI4yRTqjHRbFma3KwWUpBxl+TVkvwxJDO298IV3jBeZmMZ/rSedBI1zn3BoWnhRirIUNd9gjjN1LCdY1VQ==
+    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEw4yWuoOUk9zemXO9vWyjpd5ClEvnN2go0FT+toyzu68NI4KRKPdcyfhnWxbnBxlqqVpJlSqpsoywpA55QfFn3g==
     rewardWeightBps: 0
   - name: Digital-Asset-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEigGf2Onr2vc4jP3uFJ+ZVelkd/V2f07cwQRjrRS+AICooKg3OMFEzkFgZZjbyWJT9vUZte3y8iAXNIMwBNPw6g==
