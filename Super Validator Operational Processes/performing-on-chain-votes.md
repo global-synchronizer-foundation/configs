@@ -6,7 +6,7 @@ This process defines the required steps for Super Validator (SV) operators to cr
 
 ### Status
 
-This is a draft process based on current practices and agreements from SV operator discussions.
+This is a draft process based on current practices and agreements recorded during SV Operations meetings. 
 
 ### Process
 
