@@ -1,7 +1,7 @@
 approvedSvIdentities:
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWLDU/xZzCtl6prd15Dyi+2/zMtSbHpQh8wJ/R3J9YKDVNpkJVo+qBkmYYSdlAifLz1aymUKqZlWDBvtQCJIaA==
-    rewardWeightBps: 108_0000
+    rewardWeightBps: 118_0000
     extraBeneficiaries:
       - beneficiary: "validator_GSF-1::12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79"
         weight: 10_0000
@@ -64,6 +64,10 @@ approvedSvIdentities:
       - beneficiary: "Ledger-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ledger CIP-0069 # escrow party_id added to the GhostSV-validator-1
         weight: 5_0000
       - beneficiary: "Taurus-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Taurus CIP-0077 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
+      - beneficiary: "Fireblocks-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Fireblocks CIP-0072 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
+      - beneficiary: "BitGo-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # BitGo CIP-0074 # escrow party_id added to the GhostSV-validator-1
         weight: 5_0000
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcGfwLnDE3vQuWcHE7CfVABigVK5nPeAjqFf66pIlXpqeoklu4KMnDE4Zse465NcWUgfMnjmmSw53hKRxuR6RFg==
