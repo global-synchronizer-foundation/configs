@@ -13,10 +13,10 @@ approvedSvIdentities:
     rewardWeightBps: 1_0000
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEw4yWuoOUk9zemXO9vWyjpd5ClEvnN2go0FT+toyzu68NI4KRKPdcyfhnWxbnBxlqqVpJlSqpsoywpA55QfFn3g==
-    rewardWeightBps: 0
+    rewardWeightBps: 15_9250
   - name: Digital-Asset-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEigGf2Onr2vc4jP3uFJ+ZVelkd/V2f07cwQRjrRS+AICooKg3OMFEzkFgZZjbyWJT9vUZte3y8iAXNIMwBNPw6g==
-    rewardWeightBps: 21_1500
+    rewardWeightBps: 15_9250
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+2XaCekgPDPoEzXeo3yYf6Y+3zbIXKMoR2WYl/pa8CMuOloMXHUfdi6viBJcvoLij7ti5PaqLp1PHJ5tWLteVQ==
     rewardWeightBps: 108_0000
