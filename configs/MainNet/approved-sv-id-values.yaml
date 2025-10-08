@@ -66,8 +66,8 @@ approvedSvIdentities:
       - beneficiary: "Taurus-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Taurus CIP-0077 # escrow party_id added to the GhostSV-validator-1
         weight: 5_0000
   - name: Digital-Asset-1
-    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcGfwLnDE3vQuWcHE7CfVABigVK5nPeAjqFf66pIlXpqeoklu4KMnDE4Zse465NcWUgfMnjmmSw53hKRxuR6RFg==
-    rewardWeightBps: 15_9250
+    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPwq1sDSnoZu5ayXq6ar8FRnfM+Fqxe1gZwMbbKYhggjliJxWfWQ9w5xVtw5YbLlczi9H4OL8gCOs1m43t3WFIw==
+    rewardWeightBps: 0
   - name: SV-Nodeops-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQfazgfYYYuXXuUmujEUnLYsQfWnb8CEKsddv7Gt0SqG2v9Tx9/LyzteOdPOSXtb5XODumthhfpFh0MLnU8w+eQ==
     rewardWeightBps: 10_2500
@@ -79,7 +79,7 @@ approvedSvIdentities:
     rewardWeightBps: 13_6125
   - name: Digital-Asset-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXENgmM6XF+Dl45CCFlga8mFFX9LgcZWeRJPogk4qD8UVyulAw5v5yjVJtZfxj7G61+La1t5pgUaBfdSl0SB0TA==
-    rewardWeightBps: 15_9250
+    rewardWeightBps: 31_8500
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPuCFe1z5+ZzVb9y78ewt9yYm7KjGlCk36nF5ZrkkoO+lZvAXmr0IEWEgtBHxienC2IIDGT49aQM6M8ukvbxYLA==
     rewardWeightBps: 2_0000
