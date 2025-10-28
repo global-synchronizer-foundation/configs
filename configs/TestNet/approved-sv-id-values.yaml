@@ -3,7 +3,7 @@ approvedSvIdentities:
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETM+CeyHvphl9RiPDKL3vVX7F+Qo4fIhJopmgU5B7IzkwSdFic20hFB6tnAuCTU+UBjqZgh8N/h9r+CTrXMPsRg==
     rewardWeightBps: 10_2500
   - name: Digital-Asset-1
-    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsRRntNkOLF2Wh7JxV0rBQPgT+SendIjFLXKUXCrLbVHqomkypHQiZP8OgFMSlByOnr81fqiUt3G36LUpg/fmgA==
+    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvy3k9wxyJTf57jcSfoRyrQm7bJnWtUyzXTqDTUMyFuLbO4LdfB+IMLZbKDr85ApjjTHGEeKQc/GUM/mGnBBaCw==
     rewardWeightBps: 15_9250
   - name: Digital-Asset-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPKz6BujCKqA6ACviIybPw8aYTsKOYkWN6spIWL4CTxiH26QCyrrYFH06OGxa8UykyPM0yuywDXKF3ZVpWyF0hw==
@@ -16,7 +16,7 @@ approvedSvIdentities:
     rewardWeightBps: 13_6125
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETri1wBeoV3AYnEF/slvViz9GO2g2lcxUQ3SadBTA70Kn87KzAZ/25n6+hhuRebuuGlm70KFKGJGr8RFd1YjB1Q==
-    rewardWeightBps: 80_5000
+    rewardWeightBps: 129_0000
     extraBeneficiaries:
       - beneficiary: "GSF-validator-1::1220cff733e3a29f50b3104f573d51461e85cd685b28dafa684c40813975e6e2ce3d"
         weight: 10_0000
@@ -54,6 +54,28 @@ approvedSvIdentities:
         weight: 7_5000
       - beneficiary: "Ubyx-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Ubyx CIP-0071 # escrow party_id added to the GhostSV-validator-1
         weight: 5_0000
+      - beneficiary: "Hypernative-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Hypernative CIP-0076 # escrow party_id added to the GhostSV-validator-1
+        weight: 1_0000
+      - beneficiary: "Chainlink-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Chainlink CIP-0061 # escrow party_id added to the GhostSV-validator-1
+        weight: 7_5000
+      - beneficiary: "Chainlink-ghost-2::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Chainlink CIP-0065 # escrow party_id added to the GhostSV-validator-1
+        weight: 3_0000
+      - beneficiary: "LayerZero-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Layer Zero CIP-0065 # escrow party_id added to the GhostSV-validator-1
+        weight: 3_0000
+      - beneficiary: "Wormhole-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Wormhole CIP-0065 # escrow party_id added to the GhostSV-validator-1
+        weight: 3_0000
+      - beneficiary: "Ledger-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Ledger CIP-0069 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
+      - beneficiary: "Taurus-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Taurus CIP-0077 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
+      - beneficiary: "Fireblocks-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # Fireblocks CIP-0072 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
+      - beneficiary: "BitGo-ghost-1::12202b7cd3b3da8b3449b075e54b0b3de4a437f56f9b179b35a6050d75c866e4bbf0" # BitGo CIP-0074 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
+      - beneficiary: "Zodia-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Zodia CIP-0075 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
+      - beneficiary: "Republic-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Republic CIP-0080 # escrow party_id added to the GhostSV-validator-1
+        weight: 6_0000
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOxCYWSBB4hDz7O1XxJ3xswKXxJcQqsgyzBTbWjkwa+ILYXy8T2vtVMoZ+tC/Ykdp3MyFwcMIP1kzcDKCSp0qow==
     rewardWeightBps: 2_0000

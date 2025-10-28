@@ -17,12 +17,12 @@ This is a draft process based on current working practices and discussions in pr
 #### 2. Initiate on-ledger vote
 
 - Use the SV UI or corresponding SV app API to create the on-ledger vote.
-- Include a clear and consistent vote description matching the proposal.
-- Immediately upon opening the vote, send a notification email to:
+- Include a clear and consistent vote summary that is either a copy of or an edited version of the abstract in the CIP text.
+- Immediately upon opening the vote proposal, send a notification email to:
   - `supervalidator-announce@lists.sync.global`
 
   This email must include:
-  - A summary of the proposal
+  - A summary of the vote proposal
   - The contract ID to the on-ledger vote
   - Any relevant context or supporting links
 - [Optional] Announce the vote in `#supervalidator-ops` on Slack.
@@ -32,6 +32,7 @@ This is a draft process based on current working practices and discussions in pr
 - For CIPs or operational votes requiring a GitHub PR (e.g., weights, IPs):
   - Prepare the corresponding PR(s) once the vote passes.
   - Announce PR status and request review/merge in `#supervalidator-ops`.
+  - Ensure that the status of the CIP in GitHub has been updated to "Final" once the CIP has gone into effect. 
 
 ### Notes
 
