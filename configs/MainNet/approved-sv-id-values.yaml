@@ -77,7 +77,7 @@ approvedSvIdentities:
         weight: 6_5000
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPwq1sDSnoZu5ayXq6ar8FRnfM+Fqxe1gZwMbbKYhggjliJxWfWQ9w5xVtw5YbLlczi9H4OL8gCOs1m43t3WFIw==
-    rewardWeightBps: 0
+    rewardWeightBps: 15_9250
   - name: SV-Nodeops-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQfazgfYYYuXXuUmujEUnLYsQfWnb8CEKsddv7Gt0SqG2v9Tx9/LyzteOdPOSXtb5XODumthhfpFh0MLnU8w+eQ==
     rewardWeightBps: 10_2500
@@ -89,7 +89,7 @@ approvedSvIdentities:
     rewardWeightBps: 13_6125
   - name: Digital-Asset-2
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXENgmM6XF+Dl45CCFlga8mFFX9LgcZWeRJPogk4qD8UVyulAw5v5yjVJtZfxj7G61+La1t5pgUaBfdSl0SB0TA==
-    rewardWeightBps: 31_8500
+    rewardWeightBps: 15_9250
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPuCFe1z5+ZzVb9y78ewt9yYm7KjGlCk36nF5ZrkkoO+lZvAXmr0IEWEgtBHxienC2IIDGT49aQM6M8ukvbxYLA==
     rewardWeightBps: 2_0000
