@@ -12,14 +12,14 @@ When an issue is threatening MainNet that requires a new Splice release to adequ
 
 1 Is always an option, but fast-tracking a full Splice release adds additional risks as the release will usually include significantly more changes than required for addressing the issue.
 
-It seems like the current risks to MainNet stability require us to react more quickly.
+To improve MainNet stability, we need a mechanism for faster, more targeted fixes.
 
 ### Scope of this document
 
 * Define a process for bugfix releases that need to be applied **only on SVs**.
   * This process does not cover any method for adopting bugfix releases by validators.
 * Validators are expected to stick to the regular release schedule.
-* *If* we see the necessity for a bugfix process for validators as well, we’ll follow up with an update to this process.
+* *If* a similar process for validators becomes necessary, this document will be updated accordingly.
 
 ### Rules for bugfix releases
 
@@ -28,19 +28,19 @@ It seems like the current risks to MainNet stability require us to react more qu
   * The following types of changes are not considered sufficiently “targeted” by default and need additional justification and explicit highlighting if they are to be included in a bugfix release
     * “One-way” upgrades that make downgrades to the previous version unsafe
     * Daml model upgrades
-    * DB schema migrations
+    * Database schema migrations
     * Major upgrades that require a synchronizer migration (implies: no protocol change)
 * No skipping: The default upgrading schema is “we fast-track the bugfix”; i.e.:
   * No (snippet) of code runs on MainNet before having been confirmed to work on DevNet *and* TestNet.
   * The releases containing the bugfix might still vary between networks (but all of them must include the bugfix code targeted for MainNet).
-  * Deviations from this default need additional justification and explicit highlighting.
+  * Any deviation from this rule must be explicitly justified and approved.
 * Fast preparation: The Splice team can cut a bugfix release with low overhead and delays.
   * This includes delays for coordinating upgrading schedules: bugfix releases do not change the regular release cutting and upgrading schedule.
 * Naming ([Semantic Versioning](https://semver.org/spec/v2.0.0.html))
   * Before Splice 1.0.0: by example: a bugfix release for 0.4.18 would (have to) be called `0.4.19-bugfix.preview`, the next one `0.4.19-bugfix.preview.1`, etc.
   * After Splice 1.0.0: by example: a bugfix release for 1.1.0 could just be `1.1.1`
 * Vote and commit
-  * Once a governance majority (\>⅔) of SV operators have agreed to a bugfix release \+ upgrading plan, each SV operator is obliged to commit to it.
+  * Once a governance majority (\>⅔) of SV operators approves a bugfix release and upgrade plan, all SV operators are required to implement it according to the agreed schedule.
 
 ### Process for proposing and accepting bugfix releases
 
@@ -74,4 +74,6 @@ Assuming an issue has been identified that is threatening MainNet:
 
 ### Practicing this process
 
-This process can be practiced by releasing an “empty” bugfix release (no actual changes) and adopting it on `TestNet` (skipping `DevNet`), following the exact steps outlined above.
+To test this process, the Splice team may publish an “empty” bugfix release (containing no code changes) for TestNet adoption.
+
+This allows operators to validate the workflow and communication steps without risk to production.
