@@ -92,6 +92,8 @@ approvedSvIdentities:
         weight: 1_0000
       - beneficiary: "HexTrust-ghost-1::1220804f8856b9ec277d69059ce8ea31063dbec116b0c398c2ff3d191b0f227ef04b" # HexTrust CIP-0087 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 3_0000
+      - beneficiary: "Blockdaemon-ghost-1::1220804f8856b9ec277d69059ce8ea31063dbec116b0c398c2ff3d191b0f227ef04b" # Blockdaemon CIP-0094 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        weight: "50000"
   - name: Orb-1-LP-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEM/I3om2cE1ccDhYdy3wwKys3afBskv/OsRe8Jr52RywZOke+TfNbqQYcltATswgDi3HPdJUG3IEgo4Fh2vfl+g==
     rewardWeightBps: 10_0000
