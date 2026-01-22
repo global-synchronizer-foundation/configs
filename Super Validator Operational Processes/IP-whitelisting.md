@@ -12,13 +12,13 @@ This is a draft process based on current working practices and prior agreements 
 
 #### 1. Sponsor Involvement
 
-- The **SV sponsor** must be included in all IP whitelisting requests.
-- The **SV sponsor** must also be included in the IP whitelisting record.
-- The **sponsor** should normally be the **onboarding SV**, but exceptions are allowed if another SV is willing to take responsibility for the whitelisted node/cluster.
+- The **SV sponsor** or **Node as a Service provider** must be included in all IP whitelisting requests.
+- The **SV sponsor** or *Node as a Service provider** must also be included in the IP whitelisting record.
+- The **SV sponsor** should normally be the **onboarding SV**, but exceptions are allowed if another SV is willing to take responsibility for the whitelisted node/cluster.
 
 #### 2. IP Address Allocation Rules
 
-- **One IP per cluster** is allowed.
+- **One IP per cluster** is allowed. Exceptions will be considered on a case-by-case basis for large institutions and exchanges. 
 - Validator nodes and clusters **must use different IP addresses** for different networks (e.g., MainNet, DevNet, TestNet).
 
 #### 3. GitHub Whitelisting Files
@@ -33,8 +33,7 @@ This is a draft process based on current working practices and prior agreements 
   - Node or cluster identifier
   - Network name
   - Assigned IP address
-  - SV sponsor information
-- Obtain approval from the SV sponsor before merging.
+  - SV sponsor or Node as a Service provider information
 
 ### Notes
 
