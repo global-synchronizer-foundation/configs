@@ -10,13 +10,21 @@ This is a proposed process based on working patterns as no formal process has be
 
 ### Process
 
-#### 1. Sponsorship and Accountability
+### 1. Sponsorship and Accountability
 
-- Every IP whitelisting request **must include an SV sponsor or a Node as a Service (NaaS) provider**.
-- The **SV sponsor or NaaS provider must be explicitly included** in the IP whitelisting record.
-- The SV sponsor should normally be the **onboarding SV**, but exceptions are allowed if another SV is willing to take responsibility for the whitelisted node or cluster.
-- Sponsors are accountable for the nodes or clusters they whitelist.
-- Any exceptions to sponsorship expectations must be **explicitly documented** in the IP whitelisting record or PR description.
+#### 1a. Sponsor Involvement for Self-Hosted Validators
+
+- For validators operating their **own infrastructure**, an **SV sponsor is required** for all IP whitelisting requests.
+- The SV sponsor should normally be the **onboarding SV**, but another SV may act as sponsor if they explicitly agree to take responsibility.
+- The SV sponsor must be **explicitly recorded** in the IP whitelisting entry.
+- The SV sponsor is accountable for the validator node or cluster they sponsor.
+
+#### 1b. Operator Involvement for Node-as-a-Service Operated Nodes
+
+- For validators operated by a **Node as a Service (NaaS) provider**, the **NaaS provider is the responsible operator** for the validator node or cluster.
+- The **Node as a Service provider must be explicitly recorded** in all IP whitelisting requests and in the whitelisting record.
+- The NaaS provider is accountable for day-to-day infrastructure operation, security posture, and compliance with network-level requirements.
+- Any exceptions to this structure must be **explicitly documented** in the IP whitelisting record or PR description.
 
 #### 2. IP Address Allocation Rules
 
@@ -43,7 +51,7 @@ When preparing the PR, consider the following:
 - As a general rule, only one IP should be whitelisted per validator. Make sure that validators nodes use a single egress gateway so that they have a single egress IP. If more than one IP is required per validator, e.g. to temporarily run a second node while migrating between nodes, please explain that in the PR description.
 
 - Ensure that:
-  - All entries and IP addresses are **sorted alphabetically**
+  - All entries are **sorted alphabetically**, and IP addresses for each entry are **sorted numerically**.  
   - CI checks will fail if sorting requirements are not met
 
 #### 5. Additional Requirements for TestNet and MainNet
@@ -62,7 +70,6 @@ If adding an IP for a validator on **TestNet** or **MainNet**, the PR descriptio
 
 - The script [new-whitelist.sh](https://github.com/global-synchronizer-foundation/configs-private/blob/main/scripts/new-whitelist.sh) may be used to automate most of the steps above, including PR creation.
 - Use of the script does not remove the requirement for proper documentation, justification, and review.
-
 
 ### Notes
 
