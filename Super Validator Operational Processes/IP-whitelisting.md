@@ -10,11 +10,21 @@ This is a draft process based on current working practices and prior agreements 
 
 ### Process
 
-#### 1. Sponsor Involvement
+### 1. Sponsorship and Accountability
 
-- The **SV sponsor** or **Node as a Service provider** must be included in all IP whitelisting requests.
-- The **SV sponsor** or *Node as a Service provider** must also be included in the IP whitelisting record.
-- The **SV sponsor** should normally be the **onboarding SV**, but exceptions are allowed if another SV is willing to take responsibility for the whitelisted node/cluster.
+#### 1a. Sponsor Involvement for Self-Hosted Validators
+
+- For validators operating their **own infrastructure**, an **SV sponsor is required** for all IP whitelisting requests.
+- The SV sponsor should normally be the **onboarding SV**, but another SV may act as sponsor if they explicitly agree to take responsibility.
+- The SV sponsor must be **explicitly recorded** in the IP whitelisting entry.
+- The SV sponsor is accountable for the validator node or cluster they sponsor.
+
+#### 1b. Operator Involvement for Node-as-a-Service Operated Nodes
+
+- For validators operated by a **Node as a Service (NaaS) provider**, the **NaaS provider is the responsible operator** for the validator node or cluster.
+- The **Node as a Service provider must be explicitly recorded** in all IP whitelisting requests and in the whitelisting record.
+- The NaaS provider is accountable for day-to-day infrastructure operation, security posture, and compliance with network-level requirements.
+- Any exceptions to this structure must be **explicitly documented** in the IP whitelisting record or PR description.
 
 #### 2. IP Address Allocation Rules
 
