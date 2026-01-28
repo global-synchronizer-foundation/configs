@@ -11,4 +11,4 @@ exceptions to this rule for either historical or practical reasons. Known except
 # Runtime Configuration
 
 For runtime configuration values (dso and amulet rules) see another repository:
-https://github.com/global-synchronizer-foundation/configs-runtime
+https://github.com/canton-foundation/configs-runtime
