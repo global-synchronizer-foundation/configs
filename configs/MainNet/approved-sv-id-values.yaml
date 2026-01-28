@@ -110,7 +110,7 @@ approvedSvIdentities:
     rewardWeightBps: 15_9250
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPuCFe1z5+ZzVb9y78ewt9yYm7KjGlCk36nF5ZrkkoO+lZvAXmr0IEWEgtBHxienC2IIDGT49aQM6M8ukvbxYLA==
-    rewardWeightBps: 10_0000
+    rewardWeightBps: 14_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c66f47b4f7dbebab8f2af6967::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # MPCH
         weight: 1_0000
@@ -122,6 +122,8 @@ approvedSvIdentities:
         weight: 3_0000
       - beneficiary: "Blockdaemon-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Blockdaemon CIP-0094 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: "50000"
+      - beneficiary: "Tharimmune-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Tharimmune, Inc. CIP-0102 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        weight: 4_0000
   - name: Orb-1-LP-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYSpqOpqB6lWVLfu7ojM/GTSALZK2X1MAKhJoZIJP+G7WkDo0Hap4VZtaSyrKiTqlcKu4ycgJ5UEG1WAkoKYjOA==
     rewardWeightBps: 10_0000
