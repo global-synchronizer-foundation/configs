@@ -103,12 +103,14 @@ approvedSvIdentities:
         weight: 10_0000
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgWriOYpZeYXC09cPOKm/s1MzZSrJvKZc3Mz4RqYLsA7j/umQfLFKqWWu1TT77JrrGTTp57aXUTcrGg0DvyRq/Q==
-    rewardWeightBps: 10_0000
+    rewardWeightBps: 14_0000
     extraBeneficiaries:
       - beneficiary: "HexTrust-ghost-1::1220a816c3b1810840b0f40f74f3728e4f0d15fc4d15a472aab8bcdad796616e831c" # HexTrust CIP-0087 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 3_0000
       - beneficiary: "Blockdaemon-ghost-1::1220a816c3b1810840b0f40f74f3728e4f0d15fc4d15a472aab8bcdad796616e831c" # Blockdaemon CIP-0094 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: "50000"
+      - beneficiary: "Tharimmune-ghost-1::1220a816c3b1810840b0f40f74f3728e4f0d15fc4d15a472aab8bcdad796616e831c" # Tharimmune, Inc. CIP-0102 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        weight: 4_0000
   - name: Tradeweb-Markets-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyKrg8RhVQXq6+EKlwTExaoOOEWMp2JyiA1xRkFZNZo6m5ixBgQwC4vvmkPadDvGsxEniwAfLi0l+1vbnROs04Q==
     rewardWeightBps: 10_0000
