@@ -29,7 +29,9 @@ This is a proposed process based on working patterns as no formal process has be
 #### 2. IP Address Allocation Rules
 
 - As a general rule, **one IP address should be whitelisted per validator node or cluster**.
-- Exceptions (for example, large institutions, exchanges, or temporary node migrations) may be considered on a case-by-case basis and must be clearly explained in the PR description.
+- Exceptions (for example, large institutions, exchanges, or temporary node migrations) may be considered on a case-by-case basis.
+  - If a request falls under an existing exception that has been made, it must be clearly stated in the PR description.
+  - Otherwise, an appeal for an exception must be made to the SV operators by presenting it in the SV-operations weekly meeting.
 - Validator nodes and clusters **must use different IP addresses for different networks** (for example, DevNet, TestNet, and MainNet).
 - Operators must ensure that validator infrastructure uses a single egress gateway so that outbound traffic originates from the approved IP.
 
