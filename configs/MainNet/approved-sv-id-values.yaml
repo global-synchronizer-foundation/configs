@@ -147,3 +147,4 @@ approvedSvIdentities:
     rewardWeightBps: 9_0500
     extraBeneficiaries:
       - beneficiary: "bsv-ghost-1::12207f131d493f0fa74e2ae3b2f69b469ebdf2928b84176397b8c983f3f6f6b6f951" # Bosphorus SV (BSV)  CIP-0093 # escrow party_id hosted on 5nghost-mainnet-1
+        rewardWeightBps: 6_0000
