@@ -120,7 +120,10 @@ approvedSvIdentities:
     rewardWeightBps: 10_5750
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVSqn1J3YWij1KBWVNKKOQ8aEPeUc9SFe418mneRdV/PJOX4awAePDrG7A09SYkqP8dyg8ESMw5ltV0dJt5eqlQ==
-    rewardWeightBps: 3_0500
+    rewardWeightBps: 9_0500
+    extraBeneficiaries:
+      - beneficiary: "bsv-ghost-1::122021b2533a670a0eefc3a68e998ef77f56c0b2dc1ef2f40a8f829122079847931b" # Bosphorus SV (BSV)  CIP-0093 # escrow party_id hosted on 5nghost-devnet-2
+        weight: 6_0000
   - name: Proof-Group-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEeSP06KmTXsRJ65JGYwtzKRX9gosW+Gf4IwIquPGT8+XM1ey9La4wdZ+eELNZMPGacQ9fDe2JPFuRJE+fdVsfOQ==
     rewardWeightBps: 1_2500
