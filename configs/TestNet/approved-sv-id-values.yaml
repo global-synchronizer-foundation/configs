@@ -118,7 +118,7 @@ approvedSvIdentities:
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJkWEYEGZXazTVemWdA9IEjV7LryooS6OsypdNi3rpfLDgGffwZJhjGcA1wWiOpxQkbM8B0VkfNLs24OCLAf1HA==
     rewardWeightBps: 9_0500
     extraBeneficiaries:
-      - beneficiary: "bsv-ghost::122097db9a94a9682322b80231ee2f5597df9f04b6c49bdc1724157a1de3e15fbd0f" # Bosphorus SV (BSV)  CIP-0093 # escrow party_id hosted on 5nghost-testnet-1
+      - beneficiary: "bsv-ghost-1::122097db9a94a9682322b80231ee2f5597df9f04b6c49bdc1724157a1de3e15fbd0f" # Bosphorus SV (BSV)  CIP-0093 # escrow party_id hosted on 5nghost-testnet-1
         weight: 6_0000
   - name: Proof-Group-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEX1G0Gc5kYqisXQk0GZpygZ7cOmo5AHh0+87ZVnwPUXdA9msdGm/XCCTfFz4g7x4QfhgXHEARGSTqvIq5PbUqTQ==
